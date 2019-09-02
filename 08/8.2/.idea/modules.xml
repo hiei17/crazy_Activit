@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/task-candidate/task-candidate.iml" filepath="$PROJECT_DIR$/task-candidate/task-candidate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-identitylink/task-identitylink.iml" filepath="$PROJECT_DIR$/task-identitylink/task-identitylink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-user/task-user.iml" filepath="$PROJECT_DIR$/task-user/task-user.iml" />
+    </modules>
+  </component>
+</project>

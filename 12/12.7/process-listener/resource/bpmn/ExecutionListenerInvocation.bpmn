@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+	xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+	typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath"
+	targetNamespace="http://www.activiti.org/test">
+	<process id="process1" name="process1" isExecutable="true">
+		<extensionElements>
+			<activiti:executionListener event="end"
+				class="org.crazyit.activiti.ExecutionListenerInvocation">
+				<activiti:field name="message">
+					<activiti:string><![CDATA[流程结束]]></activiti:string>
+				</activiti:field>
+			</activiti:executionListener>
+			<activiti:executionListener event="start"
+				class="org.crazyit.activiti.ExecutionListenerInvocation">
+				<activiti:field name="message">
+					<activiti:string><![CDATA[流程开始]]></activiti:string>
+				</activiti:field>
+			</activiti:executionListener>
+		</extensionElements>
+		<startEvent id="startevent1" name="Start"></startEvent>
+		<userTask id="usertask1" name="Task 1">
+			<extensionElements>
+				<activiti:executionListener event="end"
+					class="org.crazyit.activiti.ExecutionListenerInvocation">
+					<activiti:field name="message">
+						<activiti:string><![CDATA[用户任务结束]]></activiti:string>
+					</activiti:field>
+				</activiti:executionListener>
+				<activiti:executionListener event="start"
+					class="org.crazyit.activiti.ExecutionListenerInvocation">
+					<activiti:field name="message">
+						<activiti:string><![CDATA[用户任务开始]]></activiti:string>
+					</activiti:field>
+				</activiti:executionListener>
+			</extensionElements>
+		</userTask>
+		<exclusiveGateway id="exclusivegateway1" name="Exclusive Gateway">
+			<extensionElements>
+				<activiti:executionListener event="start"
+					class="org.crazyit.activiti.ExecutionListenerInvocation">
+					<activiti:field name="message">
+						<activiti:string><![CDATA[网关开始]]></activiti:string>
+					</activiti:field>
+				</activiti:executionListener>
+			</extensionElements>
+		</exclusiveGateway>
+		<intermediateThrowEvent id="signalintermediatethrowevent1"
+			name="SignalThrowEvent">
+			<extensionElements>
+				<activiti:executionListener event="end"
+					class="org.crazyit.activiti.ExecutionListenerInvocation">
+					<activiti:field name="message">
+						<activiti:string><![CDATA[中间事件结束]]></activiti:string>
+					</activiti:field>
+				</activiti:executionListener>
+				<activiti:executionListener event="start"
+					class="org.crazyit.activiti.ExecutionListenerInvocation">
+					<activiti:field name="message">
+						<activiti:string><![CDATA[中间事件开始]]></activiti:string>
+					</activiti:field>
+				</activiti:executionListener>
+			</extensionElements>
+		</intermediateThrowEvent>
+		<endEvent id="endevent1" name="End"></endEvent>
+		<sequenceFlow id="flow1" sourceRef="startevent1"
+			targetRef="exclusivegateway1">
+			<extensionElements>
+				<activiti:executionListener 
+					class="org.crazyit.activiti.ExecutionListenerInvocation">
+					<activiti:field name="message" stringValue="从开始事件到网关的顺序流"/>
+				</activiti:executionListener>
+			</extensionElements>	
+		</sequenceFlow>
+		<sequenceFlow id="flow3" sourceRef="usertask1"
+			targetRef="signalintermediatethrowevent1"></sequenceFlow>
+		<sequenceFlow id="flow4" sourceRef="signalintermediatethrowevent1"
+			targetRef="endevent1"></sequenceFlow>
+		<sequenceFlow id="flow5" sourceRef="exclusivegateway1"
+			targetRef="usertask1"></sequenceFlow>
+	</process>
+	<bpmndi:BPMNDiagram id="BPMNDiagram_process1">
+		<bpmndi:BPMNPlane bpmnElement="process1" id="BPMNPlane_process1">
+			<bpmndi:BPMNShape bpmnElement="startevent1"
+				id="BPMNShape_startevent1">
+				<omgdc:Bounds height="35.0" width="35.0" x="190.0" y="226.0"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="usertask1" id="BPMNShape_usertask1">
+				<omgdc:Bounds height="55.0" width="105.0" x="370.0" y="216.0"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="exclusivegateway1"
+				id="BPMNShape_exclusivegateway1">
+				<omgdc:Bounds height="40.0" width="40.0" x="280.0" y="223.0"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="signalintermediatethrowevent1"
+				id="BPMNShape_signalintermediatethrowevent1">
+				<omgdc:Bounds height="35.0" width="35.0" x="540.0" y="226.0"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="endevent1" id="BPMNShape_endevent1">
+				<omgdc:Bounds height="35.0" width="35.0" x="640.0" y="226.0"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
+				<omgdi:waypoint x="225.0" y="243.0"></omgdi:waypoint>
+				<omgdi:waypoint x="280.0" y="243.0"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+				<omgdi:waypoint x="475.0" y="243.0"></omgdi:waypoint>
+				<omgdi:waypoint x="540.0" y="243.0"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+				<omgdi:waypoint x="575.0" y="243.0"></omgdi:waypoint>
+				<omgdi:waypoint x="640.0" y="243.0"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5">
+				<omgdi:waypoint x="320.0" y="243.0"></omgdi:waypoint>
+				<omgdi:waypoint x="370.0" y="243.0"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+		</bpmndi:BPMNPlane>
+	</bpmndi:BPMNDiagram>
+</definitions>

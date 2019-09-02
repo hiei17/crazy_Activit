@@ -1,0 +1,64 @@
+package org.crazyit.drools;
+
+rule "No Loop"
+	no-loop false
+	when
+		$p : PropertyPerson(age < 20)
+	then
+		System.out.println("当前年龄：" + $p.getAge());
+		int newAge = $p.getAge() + 1;
+		$p.setAge(newAge);
+		update($p);
+end
+
+rule "Agenda Group A"
+	agenda-group "My Group 1"
+	auto-focus true
+	when
+		$p : PropertyPerson(age == 30)
+	then
+		System.out.println("Agenda Group A");
+		$p.setAge(31);
+		update($p);
+end
+
+rule "Agenda Group B"
+	agenda-group "My Group 1" 
+	lock-on-active true
+	when
+		$p : PropertyPerson(age == 31)
+	then
+		System.out.println("Agenda Group B");
+end
+
+rule "Activation Group A"
+	activation-group "My Group 2"
+	when
+		$p : PropertyPerson(age == 40)
+	then
+		System.out.println("Activation Group A");
+end
+
+rule "Activation Group B"
+	activation-group "My Group 2"
+	when
+		$p : PropertyPerson(age == 40)
+	then
+		System.out.println("Activation Group B");
+end
+
+rule "Salience 1"
+	salience 2
+	when 
+		$p : PropertyPerson(age == 50)
+	then
+		System.out.println("salience 为 2的规则");
+end
+
+rule "Salience 2"
+	salience 1
+	when 
+		$p : PropertyPerson(age == 50)
+	then
+		System.out.println("salience 为 1的规则");
+end

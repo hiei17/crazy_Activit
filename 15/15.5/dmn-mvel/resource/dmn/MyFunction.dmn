@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151130"
+	id="simple" name="Simple" namespace="http://activiti.org/dmn">
+	<decision id="decision1" name="Simple decision">
+		<decisionTable id="decisionTable">
+			<!-- 输入参数，名称为personName -->
+			<input id="input1">
+				<inputExpression id="inputExpression1" typeRef="string">
+					<text>personName</text>
+				</inputExpression>
+			</input>
+			<!-- 输入参数，名称为age -->
+			<input id="input2">
+				<inputExpression id="inputExpression2" typeRef="string">
+					<text>age</text>
+				</inputExpression>
+			</input>
+			<!-- 输出结果，名称为 outputResult -->
+			<output id="outputId" label="Output 1" name="outputResult" typeRef="string" />
+			<rule>
+				<inputEntry id="inputEntry1">
+					<!-- personName参数等于Angus，则触发该规则 -->
+					<text>
+						<![CDATA[ 
+							.equals('Angus')  
+						]]>
+					</text>
+				</inputEntry>
+				<outputEntry id="outputEntry1">
+					<!-- 调用自定义函数，该函数有返回值，返回值将作为规则返回值 -->
+					<text>
+						<![CDATA[  
+							fn_testMethod(personName, age)
+						]]>
+					</text>
+				</outputEntry>
+			</rule>
+		</decisionTable>
+	</decision>
+</definitions>

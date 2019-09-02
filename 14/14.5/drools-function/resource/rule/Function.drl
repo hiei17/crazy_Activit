@@ -1,0 +1,30 @@
+package org.crazyit.drools;
+
+import java.text.*;
+import java.util.*;
+
+function String formatDate(Date date) {
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	return sdf.format(date);
+}
+
+function boolean canDiscount(int price, int amount, int discountBoundary) {
+	if (price * amount > discountBoundary) {
+		return true;
+	}
+	return false;
+}
+
+function void print(Sale sale) {
+	Date date = FunctionUtil.plusDay(sale.getDate(), 10);
+	System.out.println("销售单： " + sale.getSaleCode() + ", 时间：" + formatDate(date) + ", 金额：" 
+		+ (sale.getAmount() * sale.getPrice()));
+}
+
+rule "Sale Discount"
+	when 
+		$s : Sale(canDiscount(price, amount, 100));
+	then 
+		print($s);
+		
+end

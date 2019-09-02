@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/9.4/process-control/process-control.iml" filepath="$PROJECT_DIR$/9.4/process-control/process-control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.5/process-query/process-query.iml" filepath="$PROJECT_DIR$/9.5/process-query/process-query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.4/process-signal/process-signal.iml" filepath="$PROJECT_DIR$/9.4/process-signal/process-signal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.3/process-variable/process-variable.iml" filepath="$PROJECT_DIR$/9.3/process-variable/process-variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.2/start-process/start-process.iml" filepath="$PROJECT_DIR$/9.2/start-process/start-process.iml" />
+    </modules>
+  </component>
+</project>

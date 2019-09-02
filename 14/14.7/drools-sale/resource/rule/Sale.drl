@@ -1,0 +1,40 @@
+package org.crazyit.activiti;
+
+import java.util.*;
+import java.math.*;
+
+// 周六周日打九折
+rule "Sat. and Sun. 90%"	
+	no-loop true
+	lock-on-active true
+	salience  3
+	when
+		$s : Sale(getDayOfWeek() == 1 || getDayOfWeek() == 7)
+	then
+		$s.setDiscount(new BigDecimal(0.9));
+		update($s);
+end
+
+// 100元打八折
+rule "100 80%"
+	no-loop true
+	lock-on-active true
+	salience  2
+	when
+		$s : Sale(getTotal() >= 100)
+	then
+		$s.setDiscount(new BigDecimal(0.8));
+		update($s);
+end
+
+// 200元打七折
+rule "200 70%"
+	no-loop true
+	lock-on-active true
+	salience  1
+	when
+		$s : Sale(getTotal() >= 200)
+	then
+		$s.setDiscount(new BigDecimal(0.7));
+		update($s);
+end

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_131"/>
+	<classpathentry kind="lib" path="lib/cxf-core-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/woodstox-core-asl-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/xmlschema-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/asm-5.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-bindings-soap-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-bindings-xml-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-databinding-jaxb-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-frontend-jaxws-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-frontend-simple-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-transports-http-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-transports-http-jetty-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-ws-addr-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-ws-policy-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-wsdl-3.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-core-2.2.11.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-impl-2.2.11.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-continuation-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-http-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-io-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-security-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-server-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-util-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="lib/neethi-3.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="lib/wsdl4j-1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/xml-resolver-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

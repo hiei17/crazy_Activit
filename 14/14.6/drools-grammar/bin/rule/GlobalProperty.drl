@@ -1,0 +1,17 @@
+package org.crazyit.drools;
+
+import org.crazyit.drools.object.Person;
+import java.util.List;
+
+global String userName;
+
+global List maxThan30;
+
+rule "Age Filter"
+	when
+		$p : Person(age > 30);
+	then
+		userName = $p.getName();
+		System.out.println("年龄大于30的人：" + userName);
+		maxThan30.add($p);
+end

@@ -1,0 +1,8 @@
+package org.crazyit.drools;
+abc
+rule "Test Rule"
+    when
+        Person(name == "Crazyit");
+    then
+        System.out.println("Welcome to Drools");
+end

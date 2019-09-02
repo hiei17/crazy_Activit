@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions id="definitions"
+	xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:activiti="http://activiti.org/bpmn" 
+	targetNamespace="Examples">
+
+	<!-- 定义消息 -->
+	<message id="startMsg" name="startMsg"></message>
+	
+	<process id="saleOrder" name="saleOrder">
+		<startEvent id="start" >
+			<!-- 定义消息事件 -->
+			<messageEventDefinition messageRef="startMsg"></messageEventDefinition >
+		</startEvent>
+		<sequenceFlow sourceRef="start" targetRef="confirmOrder" />
+		<userTask id="confirmOrder"></userTask>		
+		<sequenceFlow sourceRef="confirmOrder" targetRef="sendGoods" />		
+		<userTask id="sendGoods"></userTask>
+		<sequenceFlow sourceRef="sendGoods" targetRef="end" />
+		<endEvent id="end" />
+	</process>
+
+	
+
+</definitions>

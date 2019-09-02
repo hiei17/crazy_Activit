@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activiti="http://activiti.org/bpmn"
+	xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+	xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema"
+	expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+	
+	<error id="connectError" errorCode="error"></error>
+	
+	<process id="errorStartProcess" name="errorStartProcess">
+		<startEvent id="startevent1" name="Start"></startEvent>
+		<subProcess id="eventsubprocess1" name="Event sub Process"
+			triggeredByEvent="true">
+			<startEvent id="errorstartevent1" name="Error start">
+				<errorEventDefinition errorRef="connectError"></errorEventDefinition>
+			</startEvent>
+			<serviceTask id="usertask1" name="Sub Task"
+				activiti:class="org.crazyit.activiti.HandleErrorDelegate"></serviceTask>
+			<endEvent id="endevent1" name="End"></endEvent>
+			<sequenceFlow id="flow2" name="" sourceRef="errorstartevent1"
+				targetRef="usertask1"></sequenceFlow>
+			<sequenceFlow id="flow3" name="" sourceRef="usertask1"
+				targetRef="endevent1"></sequenceFlow>
+		</subProcess>
+		<serviceTask id="servicetask1" name="Service Task"
+			activiti:class="org.crazyit.activiti.CheckServerDelegate"></serviceTask>
+		<endEvent id="endevent2" name="End"></endEvent>
+		<sequenceFlow id="flow4" name="" sourceRef="startevent1"
+			targetRef="servicetask1"></sequenceFlow>
+		<sequenceFlow id="flow5" name="" sourceRef="servicetask1"
+			targetRef="endevent2"></sequenceFlow>
+	</process>
+	<bpmndi:BPMNDiagram id="BPMNDiagram_errorStartProcess">
+		<bpmndi:BPMNPlane bpmnElement="errorStartProcess"
+			id="BPMNPlane_errorStartProcess">
+			<bpmndi:BPMNShape bpmnElement="startevent1"
+				id="BPMNShape_startevent1">
+				<omgdc:Bounds height="35" width="35" x="212" y="270"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="eventsubprocess1"
+				id="BPMNShape_eventsubprocess1" isExpanded="true">
+				<omgdc:Bounds height="151" width="301" x="214" y="80"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="errorstartevent1"
+				id="BPMNShape_errorstartevent1">
+				<omgdc:Bounds height="35" width="35" x="244" y="140"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="usertask1" id="BPMNShape_usertask1">
+				<omgdc:Bounds height="55" width="105" x="314" y="130"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="endevent1" id="BPMNShape_endevent1">
+				<omgdc:Bounds height="35" width="35" x="454" y="140"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+				<omgdi:waypoint x="279" y="157"></omgdi:waypoint>
+				<omgdi:waypoint x="314" y="157"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+				<omgdi:waypoint x="419" y="157"></omgdi:waypoint>
+				<omgdi:waypoint x="454" y="157"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape bpmnElement="servicetask1"
+				id="BPMNShape_servicetask1">
+				<omgdc:Bounds height="55" width="105" x="312" y="260"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="endevent2" id="BPMNShape_endevent2">
+				<omgdc:Bounds height="35" width="35" x="480" y="270"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+				<omgdi:waypoint x="247" y="287"></omgdi:waypoint>
+				<omgdi:waypoint x="312" y="287"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5">
+				<omgdi:waypoint x="417" y="287"></omgdi:waypoint>
+				<omgdi:waypoint x="480" y="287"></omgdi:waypoint>
+			</bpmndi:BPMNEdge>
+		</bpmndi:BPMNPlane>
+	</bpmndi:BPMNDiagram>
+</definitions>

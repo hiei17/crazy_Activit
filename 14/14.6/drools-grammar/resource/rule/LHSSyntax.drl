@@ -1,0 +1,59 @@
+package org.crazyit.drools;
+
+rule "Method Syntax"
+	when
+		SyntaxPerson1(myMethod == 31)
+	then
+		System.out.println("条件中调用事实方法");
+end
+
+rule "Java Syntax"
+	when
+		SyntaxPerson1((age == 40) && (name == "person 3"));
+	then
+		System.out.println("使用Java表达式");
+end
+
+rule "And Syntax"
+	when
+		SyntaxPerson1(age == 50, name == "person 4");
+	then
+		System.out.println("使用逗号隔开多个与条件");
+end
+
+rule "Or Syntax"
+	when
+		SyntaxPerson1(age == 50 || name == "person 4")
+	then
+		System.out.println("使用or进行条件判定");
+end
+
+
+rule "Property Name"
+	when
+		SyntaxPerson1(age == 20, $myAge : age);
+	then
+		System.out.println("属性命名规则: " + $myAge);
+end
+
+rule "Multi Fact"
+	when
+		$p1 : SyntaxPerson1(age == 11)
+		$p2 : SyntaxPerson2(age == 11)
+	then
+		System.out.println("多事实规则：" + $p1.getName() + "---" + $p2.getName());
+end
+
+rule "String Contains"
+	when
+		SyntaxPerson1(name contains "9")
+	then
+		System.out.println("人名包含9的规则");
+end
+
+rule "Collection"
+	when
+		SyntaxPerson1(children[0] == "Paris")
+	then
+		System.out.println("判断集合中的第一个元素值为Paris");
+end

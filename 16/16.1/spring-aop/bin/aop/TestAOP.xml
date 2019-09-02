@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+	<!-- AOP配置 -->
+	<aop:config>
+		<aop:aspect id="logAspect" ref="logService">
+			<aop:pointcut id="serviceMethod"
+				expression="execution(* org.crazyit.spring.aop.*.*(..))" />
+			<aop:after pointcut-ref="serviceMethod" method="doLog" />
+		</aop:aspect>
+	</aop:config>
+	<!-- 日志服务 -->
+	<bean id="logService" class="org.crazyit.spring.aop.impl.LogServiceImpl"></bean>
+	<!-- 普通的业务bean -->
+	<bean id="targetService" class="org.crazyit.spring.aop.impl.TargetServiceImpl"></bean>
+
+</beans>

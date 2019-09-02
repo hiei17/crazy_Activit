@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/org.restlet.ext.jackson.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.core.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.restlet.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.smile.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.databind.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.xml.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.yaml.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.csv.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.annotations.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="org.restlet.ext.jackson.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.restlet.ext.jackson.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.core.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.restlet.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.restlet.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.smile.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.smile.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.databind.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.databind.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.xml.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.xml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.yaml.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.yaml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.csv.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.csv.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.annotations.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.fasterxml.jackson.annotations.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

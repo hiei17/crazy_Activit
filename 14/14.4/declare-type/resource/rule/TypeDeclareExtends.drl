@@ -1,0 +1,19 @@
+package org.crazyit.drools;
+
+declare Person
+	name : String
+	age : int
+	weight : java.math.BigDecimal
+end
+
+// 定义程序员类型，继承Person
+declare Programmer extends Person
+	company : String
+end
+
+rule "Programmer Filter"
+	when
+		$p : Programmer(age > 30)
+	then
+		System.out.println("年龄大于30的程序员：" + $p.getCompany() + "-" + $p.getName());
+end

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151130"
+	id="simple" name="Simple" namespace="http://activiti.org/dmn">
+	<decision id="decision1" name="Simple decision">
+		<decisionTable id="decisionTable" hitPolicy="UNIQUE">
+			<input id="input1">
+				<inputExpression id="inputExpression1" typeRef="number">
+					<text>personAge</text>
+				</inputExpression>
+			</input>
+			<input id="input2">
+				<inputExpression id="inputExpression2" typeRef="string">
+					<text>personName</text>
+				</inputExpression>
+			</input>
+			<output id="outputId" label="Output 1" name="myResult" typeRef="string" />
+			<rule>
+				<inputEntry id="inputEntry2">
+					<text><![CDATA[ > 18 ]]></text>
+				</inputEntry>
+				<inputEntry id="inputEntry2_2">
+					<text><![CDATA[ .equals('Angus') ]]></text>
+				</inputEntry>
+				<outputEntry id="outputEntry2">
+					<text>'Man Angus'</text>
+				</outputEntry>
+			</rule>
+			<rule>
+				<inputEntry id="inputEntry1">
+					<text><![CDATA[ <= 18 ]]></text>
+				</inputEntry>
+				<outputEntry id="outputEntry1">
+					<text>'Child'</text>
+				</outputEntry>
+			</rule>
+		</decisionTable>
+	</decision>
+</definitions>

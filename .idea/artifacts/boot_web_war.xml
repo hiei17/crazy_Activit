@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="boot-web:war">
+    <output-path>$PROJECT_DIR$/16/16.4/boot-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>boot-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="boot-web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="boot-web:war exploded" />
+    </root>
+  </artifact>
+</component>

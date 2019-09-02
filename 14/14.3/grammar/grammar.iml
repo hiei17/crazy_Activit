@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/antlr-runtime-3.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/commons-codec-1.10.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/drools-compiler-7.0.0.Final.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/drools-core-7.0.0.Final.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/ecj-4.4.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/kie-api-7.0.0.Final.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/kie-internal-7.0.0.Final.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/mvel2-2.3.0.Final.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/protobuf-java-2.6.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/slf4j-api-1.7.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/xmlpull-1.1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/xpp3_min-1.1.4c.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/drools/xstream-1.4.9.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/resource" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resource" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="JavaSE-1.6" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="antlr-runtime-3.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/antlr-runtime-3.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec-1.10.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/commons-codec-1.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="drools-compiler-7.0.0.Final.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/drools-compiler-7.0.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="drools-core-7.0.0.Final.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/drools-core-7.0.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ecj-4.4.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/ecj-4.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kie-api-7.0.0.Final.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/kie-api-7.0.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kie-internal-7.0.0.Final.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/kie-internal-7.0.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mvel2-2.3.0.Final.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/mvel2-2.3.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="protobuf-java-2.6.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/protobuf-java-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.7.7.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/slf4j-api-1.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlpull-1.1.3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/xmlpull-1.1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xpp3_min-1.1.4c.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/xpp3_min-1.1.4c.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xstream-1.4.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/drools/xstream-1.4.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

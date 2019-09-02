@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151130"
+	id="simple" name="Simple" namespace="http://activiti.org/dmn">
+	<decision id="decision1" name="Simple decision">
+		<decisionTable id="decisionTable">
+			<!-- 输入参数，参数为Sale对象 -->
+			<input id="input1">
+				<inputExpression id="inputExpression1" typeRef="org.crazyit.activiti.sale.Sale">
+					<text>sale</text>
+				</inputExpression>
+			</input>
+			<!-- 输出结果，名称为 resultMoney -->
+			<output id="outputId" label="Output 1" name="resultMoney" typeRef="number" />
+			<!-- 周五打9折，条件为满100元 -->
+			<rule>
+				<inputEntry id="inputEntry1">
+					<text>
+						<![CDATA[ 
+							.isBiggerThan(100) && (fn_getDayOfWeek(sale.saleDate) == 6)
+						]]>
+					</text>
+				</inputEntry>
+				<outputEntry id="outputEntry1">
+					<text>
+						<![CDATA[  
+							sale.doDiscount(0.9)
+						]]>
+					</text>
+				</outputEntry>
+			</rule>
+			<!-- 周六打8折 -->
+			<rule>
+				<inputEntry id="inputEntry2">
+					<text>
+						<![CDATA[ 
+							.isBiggerThan(100) && (fn_getDayOfWeek(sale.saleDate) == 7)
+						]]>
+					</text>
+				</inputEntry>
+				<outputEntry id="outputEntry2">
+					<text>
+						<![CDATA[  
+							sale.doDiscount(0.8)
+						]]>
+					</text>
+				</outputEntry>
+			</rule>
+			<!-- 周日打7折 -->
+			<rule>
+				<inputEntry id="inputEntry3">
+					<text>
+						<![CDATA[ 
+							.isBiggerThan(100) && (fn_getDayOfWeek(sale.saleDate) == 1)
+						]]>
+					</text>
+				</inputEntry>
+				<outputEntry id="outputEntry3">
+					<text>
+						<![CDATA[  
+							sale.doDiscount(0.7)
+						]]>
+					</text>
+				</outputEntry>
+			</rule>
+		</decisionTable>
+	</decision>
+</definitions>

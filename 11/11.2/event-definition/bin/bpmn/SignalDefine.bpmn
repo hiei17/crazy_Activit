@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activiti="http://activiti.org/bpmn"
+	xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+	xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema"
+	expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+	<signal id="signalA" name="signalA"></signal>
+	<process id="process1" name="process1">
+		<intermediateThrowEvent id="signalintermediatethrowevent1"
+			name="SignalThrowEvent">
+			<signalEventDefinition signalRef="signalA"></signalEventDefinition>
+		</intermediateThrowEvent>
+	</process>
+	<bpmndi:BPMNDiagram id="BPMNDiagram_process1">
+		<bpmndi:BPMNPlane bpmnElement="process1" id="BPMNPlane_process1">
+			<bpmndi:BPMNShape bpmnElement="signalintermediatethrowevent1"
+				id="BPMNShape_signalintermediatethrowevent1">
+				<omgdc:Bounds height="35" width="35" x="350" y="210"></omgdc:Bounds>
+			</bpmndi:BPMNShape>
+		</bpmndi:BPMNPlane>
+	</bpmndi:BPMNDiagram>
+</definitions>
