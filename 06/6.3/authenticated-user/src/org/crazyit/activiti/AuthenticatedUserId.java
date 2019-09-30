@@ -32,7 +32,7 @@ public class AuthenticatedUserId {
 				}
 			}
 		}.start();
-		
+
 		new Thread() {
 			public void run() {
 				identityService.setAuthenticatedUserId("2");

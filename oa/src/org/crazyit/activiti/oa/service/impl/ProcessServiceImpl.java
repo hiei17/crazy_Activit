@@ -1,42 +1,26 @@
 package org.crazyit.activiti.oa.service.impl;
 
-import java.io.InputStream;
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.activiti.bpmn.model.BpmnModel;
-import org.activiti.engine.IdentityService;
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.RepositoryService;
-import org.activiti.engine.RuntimeService;
-import org.activiti.engine.TaskService;
+import org.activiti.engine.*;
 import org.activiti.engine.delegate.BpmnError;
 import org.activiti.engine.identity.Group;
 import org.activiti.engine.identity.User;
-import org.activiti.engine.impl.RepositoryServiceImpl;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.runtime.Execution;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Comment;
 import org.activiti.engine.task.Task;
-import org.crazyit.activiti.oa.action.bean.BaseForm;
-import org.crazyit.activiti.oa.action.bean.CommentVO;
-import org.crazyit.activiti.oa.action.bean.ExpenseAccountForm;
-import org.crazyit.activiti.oa.action.bean.FormField;
-import org.crazyit.activiti.oa.action.bean.ProcessVO;
-import org.crazyit.activiti.oa.action.bean.SalaryForm;
-import org.crazyit.activiti.oa.action.bean.TaskVO;
-import org.crazyit.activiti.oa.action.bean.VacationForm;
+import org.crazyit.activiti.oa.action.bean.*;
 import org.crazyit.activiti.oa.dao.ApplicationDao;
 import org.crazyit.activiti.oa.entity.ExpenseAccount;
 import org.crazyit.activiti.oa.entity.SalaryAdjust;
 import org.crazyit.activiti.oa.entity.Vacation;
 import org.crazyit.activiti.oa.service.ProcessService;
 import org.crazyit.activiti.oa.util.DateUtil;
+
+import java.io.InputStream;
+import java.math.BigDecimal;
+import java.util.*;
 
 public class ProcessServiceImpl implements ProcessService {
 
@@ -52,7 +36,7 @@ public class ProcessServiceImpl implements ProcessService {
 
 	private ProcessEngine processEngine;
 
-	public void setTaskService(TaskService taskService) {
+/*	public void setTaskService(TaskService taskService) {
 		this.taskService = taskService;
 	}
 
@@ -74,31 +58,35 @@ public class ProcessServiceImpl implements ProcessService {
 
 	public void setApplicationDao(ApplicationDao applicationDao) {
 		this.applicationDao = applicationDao;
-	}
+	}*/
 
 	// 启动请假流程
+	@Override
 	public ProcessInstance startVacation(VacationForm vacation) {
 		// 设置标题
 		vacation.setTitle(vacation.getUserName() + " 的请假申请");
 		vacation.setBusinessType("请假申请");
+
 		// 查找流程定义
-		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery()
-				.processDefinitionKey("Vacation").singleResult();
+		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery().processDefinitionKey("Vacation").singleResult();
+		// 启动流程
+		ProcessInstance pi = this.runtimeService.startProcessInstanceByKey(pd.getKey());
+		String piId = pi.getId();
+
 		// 初始化任务参数
 		Map<String, Object> vars = new HashMap<String, Object>();
 		vars.put("arg", vacation);
-		// 启动流程
-		ProcessInstance pi = this.runtimeService.startProcessInstanceByKey(pd
-				.getKey());
+
 		// 查询第一个任务
-		Task firstTask = this.taskService.createTaskQuery()
-				.processInstanceId(pi.getId()).singleResult();
+		Task firstTask = this.taskService.createTaskQuery().processInstanceId(piId).singleResult();
+
 		// 设置任务受理人
-		taskService.setAssignee(firstTask.getId(), vacation.getUserId());
+		String taskId = firstTask.getId();
+		taskService.setAssignee(taskId, vacation.getUserId());
 		// 完成任务
-		taskService.complete(firstTask.getId(), vars);
+		taskService.complete(taskId, vars);
 		// 记录请假数据
-		saveVacation(vacation, pi.getId());
+		saveVacation(vacation, piId);
 		return pi;
 	}
 
@@ -116,9 +104,9 @@ public class ProcessServiceImpl implements ProcessService {
 	}
 
 	// 启动薪资调整申请
+	@Override
 	public ProcessInstance startSalaryAdjust(SalaryForm salary) {
-		salary.setBusinessType("薪资调整");
-		salary.setTitle(salary.getEmployeeName() + " 的薪资调整申请");
+
 		// 验证用户是否存在
 		User user = this.identityService.createUserQuery()
 				.userLastName(salary.getEmployeeName()).singleResult();
@@ -126,18 +114,19 @@ public class ProcessServiceImpl implements ProcessService {
 			throw new RuntimeException("调薪用户不存在");
 		}
 		// 查找流程定义
-		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery()
-				.processDefinitionKey("SalaryAdjust").singleResult();
-		// 初始化参数
+		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery().processDefinitionKey("SalaryAdjust").singleResult();
+
+		ProcessInstance pi = this.runtimeService.startProcessInstanceByKey(pd.getKey());
+		Task task = this.taskService.createTaskQuery().processInstanceId(pi.getId()).singleResult();
+
+		// 完成任务
 		Map<String, Object> vars = new HashMap<String, Object>();
+		salary.setBusinessType("薪资调整");
+		salary.setTitle(salary.getEmployeeName() + " 的薪资调整申请");
 		vars.put("arg", salary);
 		vars.put("pass", true);
-		ProcessInstance pi = this.runtimeService.startProcessInstanceByKey(pd
-				.getKey());
-		Task task = this.taskService.createTaskQuery()
-				.processInstanceId(pi.getId()).singleResult();
-		// 完成任务
 		taskService.complete(task.getId(), vars);
+
 		// 将数据保存到OA_SALARY_ADJUST表
 		saveSalaryAdjust(salary, pi.getId(), user.getId());
 		return pi;
@@ -155,26 +144,31 @@ public class ProcessServiceImpl implements ProcessService {
 		this.applicationDao.saveSalaryAdjust(salary);
 	}
 
-	// 启动报销流程
-	public ProcessInstance startExpenseAccount(
-			ExpenseAccountForm expenseAccountForm) {
+	// mark 启动报销流程
+	public ProcessInstance startExpenseAccount(ExpenseAccountForm expenseAccountForm) {
+
 		expenseAccountForm.setTitle(expenseAccountForm.getUserName() + " 报销申请");
 		expenseAccountForm.setBusinessType("报销申请");
+
 		// 查找流程定义
-		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery()
-				.processDefinitionKey("ExpenseAccount").singleResult();
+		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery().processDefinitionKey("ExpenseAccount").singleResult();
 		// 初始化流程参数
-		Map<String, Object> vars = new HashMap<String, Object>();
-		vars.put("arg", expenseAccountForm);
+
 		// 启动流程
 		ProcessInstance pi = this.runtimeService.startProcessInstanceByKey(pd
 				.getKey());
+		String piId = pi.getId();
+
 		Task task = this.taskService.createTaskQuery()
-				.processInstanceId(pi.getId()).singleResult();
+				.processInstanceId(piId).singleResult();
+
 		// 完成任务
+		Map<String, Object> vars = new HashMap<String, Object>();
+		vars.put("arg", expenseAccountForm);
 		taskService.complete(task.getId(), vars);
+
 		// 保存到业务系统的数据库
-		saveExpenseAccount(expenseAccountForm, pi.getId());
+		saveExpenseAccount(expenseAccountForm, piId);
 		return pi;
 	}
 
@@ -190,19 +184,26 @@ public class ProcessServiceImpl implements ProcessService {
 
 	// 查询报销申请
 	public List<ProcessVO> listExpenseAccount(String userId) {
-		List<ExpenseAccount> accounts = this.applicationDao
-				.listExpenseAccount(userId);
+
+		//自己的表里面查到记录 里面有流程id
+		List<ExpenseAccount> accounts = this.applicationDao.listExpenseAccount(userId);
+
 		List<ProcessVO> result = new ArrayList<ProcessVO>();
+
 		for (ExpenseAccount account : accounts) {
+
 			// 查询流程实例
 			ProcessInstance pi = this.runtimeService
 					.createProcessInstanceQuery()
 					.processInstanceId(account.getProcessInstanceId())
 					.singleResult();
+
 			if (pi != null) {
-				// 查询流程参数
+
+				// 查询流程参数对象
 				BaseForm var = (BaseForm) this.runtimeService.getVariable(
 						pi.getId(), "arg");
+
 				// 封装界面对象
 				ProcessVO vo = new ProcessVO();
 				vo.setTitle(var.getTitle());
@@ -246,16 +247,21 @@ public class ProcessServiceImpl implements ProcessService {
 		// 查询OA_VACATION表的数据
 		List<Vacation> vacs = this.applicationDao.listVacation(userId);
 		List<ProcessVO> result = new ArrayList<ProcessVO>();
+
 		for (Vacation vac : vacs) {
+
 			// 查询流程实例
+			String processInstanceId = vac.getProcessInstanceId();
+
 			ProcessInstance pi = this.runtimeService
 					.createProcessInstanceQuery()
-					.processInstanceId(vac.getProcessInstanceId())
+					.processInstanceId(processInstanceId)
 					.singleResult();
+
 			if (pi != null) {
 				// 查询流程参数
-				BaseForm var = (BaseForm) this.runtimeService.getVariable(
-						pi.getId(), "arg");
+				BaseForm var = (BaseForm) this.runtimeService.getVariable(pi.getId(), "arg");
+
 				// 封装界面对象
 				ProcessVO vo = new ProcessVO();
 				vo.setTitle(var.getTitle());
@@ -267,57 +273,77 @@ public class ProcessServiceImpl implements ProcessService {
 		return result;
 	}
 
-	// 查询用户的待办任务
+	// 查询用户的待办任务 轮到自己可以做的任务
+	@Override
 	public List<TaskVO> listTasks(String userId) {
+
 		// 查询用户所属的用户组
-		Group group = this.identityService.createGroupQuery()
-				.groupMember(userId).singleResult();
+		Group group = this.identityService.createGroupQuery().groupMember(userId).singleResult();
 		// 根据用户组查询任务
 		List<Task> tasks = this.taskService.createTaskQuery()
-				.taskCandidateGroup(group.getId()).list();
+				.taskCandidateGroup(group.getId()).list();//mark 按候选用户组查询任务
 		return createTaskVOList(tasks);
 	}
 
 	// 将Task集合转为TaskVO集合
-	private List<TaskVO> createTaskVOList(List<Task> tasks) {
+	private List<TaskVO> createTaskVOList(List<Task> tasks)  {
+
 		List<TaskVO> result = new ArrayList<TaskVO>();
+
 		for (Task task : tasks) {
-			// 查询流程实例
-			ProcessInstance pi = this.runtimeService
-					.createProcessInstanceQuery()
-					.processInstanceId(task.getProcessInstanceId())
-					.singleResult();
-			// 查询流程参数
-			BaseForm arg = (BaseForm) this.runtimeService.getVariable(
-					pi.getId(), "arg");
-			// 封装值对象
-			TaskVO vo = new TaskVO();
-			vo.setProcessInstanceId(task.getProcessInstanceId());
-			vo.setRequestDate(arg.getRequestDate());
-			vo.setRequestUser(arg.getUserName());
-			vo.setTitle(arg.getTitle());
-			vo.setTaskId(task.getId());
-			vo.setProcessInstanceId(pi.getId());
+			TaskVO vo = task2VO(task);
+
 			result.add(vo);
 		}
 		return result;
 	}
 
-	// 查询用户所受理的全部任务
+	private TaskVO task2VO(Task task) {
+
+		// 查询流程实例
+		String instanceId = task.getProcessInstanceId();
+
+		ProcessInstance pi = this.runtimeService
+				.createProcessInstanceQuery()
+				.processInstanceId(instanceId)
+				.singleResult();
+
+		// 查询流程参数
+		String piId = pi.getId();
+
+		//todo 任务拿到流程 流程拿到参数
+		BaseForm arg = (BaseForm) this.runtimeService.getVariable(piId, "arg");
+
+		// 封装值对象
+		TaskVO vo = new TaskVO();
+		vo.setProcessInstanceId(instanceId);
+		vo.setRequestDate(arg.getRequestDate());
+		vo.setRequestUser(arg.getUserName());
+		vo.setTitle(arg.getTitle());
+		vo.setTaskId(task.getId());
+		vo.setProcessInstanceId(piId);
+		return vo;
+	}
+
+	// 查询用户所受理的全部任务 mark 查询用户的所有任务
 	public List<TaskVO> listAssigneeTasks(String userId) {
-		List<Task> tasks = this.taskService.createTaskQuery()
-				.taskAssignee(userId).list();
+
+		List<Task> tasks = this.taskService.createTaskQuery().taskAssignee(userId).list();
+
 		// 将Task集合转为TaskVO集合
 		return createTaskVOList(tasks);
 	}
 
-	// 领取任务
+	// 领取任务 mark 把具体任务给具体的人
 	public void claim(String taskId, String userId) {
+
 		this.taskService.claim(taskId, userId);
+		// 这样是为了 taskService.createTaskQuery().taskAssignee(userId).list(); 拿到他的任务
 	}
 
 	// 查询一个任务所在流程的开始表单信息
 	public List<FormField> getFormFields(String taskId) {
+
 		// 根据任务查询流程实例
 		ProcessInstance pi = getProcessInstance(taskId);
 		// 获取流程参数
@@ -330,6 +356,7 @@ public class ProcessServiceImpl implements ProcessService {
 
 	// 查询一个任务所在流程的全部评论
 	public List<CommentVO> getComments(String taskId) {
+
 		ProcessInstance pi = getProcessInstance(taskId);
 		List<CommentVO> result = new ArrayList<CommentVO>();
 		List<Comment> comments = this.taskService.getProcessInstanceComments(pi
@@ -357,7 +384,9 @@ public class ProcessServiceImpl implements ProcessService {
 	}
 
 	// 审批通过任务
+	@Override
 	public void complete(String taskId, String content, String userid) {
+
 		ProcessInstance pi = getProcessInstance(taskId);
 		this.identityService.setAuthenticatedUserId(userid);
 		// 添加评论
@@ -366,11 +395,15 @@ public class ProcessServiceImpl implements ProcessService {
 		this.taskService.complete(taskId);
 	}
 
-	// 薪资调整时审批不通过
+	// 薪资调整时审批不通过  mark 拒绝
+	@Override
 	public void cancelAdjust(String taskId, String comment, String userId) {
+
 		this.identityService.setAuthenticatedUserId(userId);
+
 		ProcessInstance pi = getProcessInstance(taskId);
-		// 添加评论
+
+		//mark 给任务添加评论
 		this.taskService.addComment(taskId, pi.getId(), comment);
 
 		Map<String, Object> vars = new HashMap<String, Object>();
@@ -415,6 +448,8 @@ public class ProcessServiceImpl implements ProcessService {
 		}
 	}
 
+	//mark 拒绝后执行这里
+	@Override
 	public void cancelAdjust(Execution exe) {
 		System.out.println("取消薪资调整");
 	}

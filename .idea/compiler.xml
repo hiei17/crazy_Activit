@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activiti-boot" />
         <module name="boot-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="activiti-boot" target="8" />
       <module name="boot-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>

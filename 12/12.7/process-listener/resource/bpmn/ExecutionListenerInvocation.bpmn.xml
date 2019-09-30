@@ -6,21 +6,33 @@
 	typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath"
 	targetNamespace="http://www.activiti.org/test">
 	<process id="process1" name="process1" isExecutable="true">
+
+		<!-- 整个流程的监听器 -->
 		<extensionElements>
-			<activiti:executionListener event="end"
-				class="org.crazyit.activiti.ExecutionListenerInvocation">
+
+			<!--流程结束时触发-->
+			<activiti:executionListener
+					event="end"
+					class="org.crazyit.activiti.ExecutionListenerInvocation"
+			>
 				<activiti:field name="message">
 					<activiti:string><![CDATA[流程结束]]></activiti:string>
 				</activiti:field>
 			</activiti:executionListener>
-			<activiti:executionListener event="start"
-				class="org.crazyit.activiti.ExecutionListenerInvocation">
+
+			<!--流程启动时触发-->
+			<activiti:executionListener
+					event="start"
+					class="org.crazyit.activiti.ExecutionListenerInvocation"
+			>
 				<activiti:field name="message">
 					<activiti:string><![CDATA[流程开始]]></activiti:string>
 				</activiti:field>
 			</activiti:executionListener>
 		</extensionElements>
+
 		<startEvent id="startevent1" name="Start"/>
+
 		<userTask id="usertask1" name="Task 1">
 			<extensionElements>
 				<activiti:executionListener event="end"
@@ -37,6 +49,7 @@
 				</activiti:executionListener>
 			</extensionElements>
 		</userTask>
+
 		<exclusiveGateway id="exclusivegateway1" name="Exclusive Gateway">
 			<extensionElements>
 				<activiti:executionListener event="start"
@@ -47,6 +60,7 @@
 				</activiti:executionListener>
 			</extensionElements>
 		</exclusiveGateway>
+
 		<intermediateThrowEvent id="signalintermediatethrowevent1"
 			name="SignalThrowEvent">
 			<extensionElements>
@@ -64,20 +78,28 @@
 				</activiti:executionListener>
 			</extensionElements>
 		</intermediateThrowEvent>
+
 		<endEvent id="endevent1" name="End"/>
+
 		<sequenceFlow id="flow1" sourceRef="startevent1"
 			targetRef="exclusivegateway1">
 			<extensionElements>
+
 				<activiti:executionListener 
 					class="org.crazyit.activiti.ExecutionListenerInvocation">
 					<activiti:field name="message" stringValue="从开始事件到网关的顺序流"/>
 				</activiti:executionListener>
+
+				<activiti:executionListener class="org.crazyit.activiti.SequenceflowListener"/>
+
 			</extensionElements>	
 		</sequenceFlow>
+
 		<sequenceFlow id="flow3" sourceRef="usertask1" targetRef="signalintermediatethrowevent1"/>
 		<sequenceFlow id="flow4" sourceRef="signalintermediatethrowevent1" targetRef="endevent1"/>
 		<sequenceFlow id="flow5" sourceRef="exclusivegateway1" targetRef="usertask1"/>
 	</process>
+
 	<bpmndi:BPMNDiagram id="BPMNDiagram_process1">
 		<bpmndi:BPMNPlane bpmnElement="process1" id="BPMNPlane_process1">
 			<bpmndi:BPMNShape bpmnElement="startevent1"

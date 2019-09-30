@@ -1,10 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/16/16.4/boot-web/pom.xml" line="0" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b06f8e-2c4b-4d18-a39c-df0aa936936b" name="Default Changelist" comment="" />
+    <list default="true" id="05b06f8e-2c4b-4d18-a39c-df0aa936936b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_basic_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/bpmn/TaskQuery.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/bpmn/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/ToolsTaskQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/工器具领用.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/ToolsTaskQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/12.2/activiti-assign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/12.2/bpmn-assign/resource/bpmn/Assignee.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/12.2/bpmn-assign/resource/bpmn/Candidate.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/12.6/task-listener/resource/bpmn/ExpressionTaskListener.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/SequenceflowListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/CompeteParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/resources/processes/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/resources/processes/工器具领用.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/processes/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17/rs-client/resource/bpmn/FormProperties.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18/18.2/form/resource/bpmn/FormProperty.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/resource/bpmn/CountSalary.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/resource/bpmn/ExpenseAccount.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/resource/bpmn/SalaryAdjust.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa/resource/bpmn/Vacation.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/4.5/custom-interceptor/custom-interceptor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04/4.5/custom-interceptor/custom-interceptor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.3/authenticated-user/src/org/crazyit/activiti/AuthenticatedUserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.3/authenticated-user/src/org/crazyit/activiti/AuthenticatedUserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/7.1/add-resource/bin/org/crazyit/activiti/AddBpmnModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/07/7.1/add-resource/bin/org/crazyit/activiti/AddBpmnModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/7.1/add-resource/resource/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07/7.1/add-resource/resource/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/7.1/add-resource/src/org/crazyit/activiti/AddBpmnModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/07/7.1/add-resource/src/org/crazyit/activiti/AddBpmnModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/bin/bpmn/TaskQuery.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/bpmn/TaskQuery.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/ActivityQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/ActivityQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/DetailQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/DetailQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/ProcessInstanceQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/ProcessInstanceQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/TaskQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/bin/org/crazyit/activiti/TaskQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/ActivityQuery.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/ActivityQuery.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/11.5/boundary-event/boundary-event.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11/11.5/boundary-event/boundary-event.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.6/task-listener/task-listener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.6/task-listener/task-listener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/bin/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/bin/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/bin/bpmn/ExecutionListenerInvocation.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/bin/bpmn/ExecutionListenerInvocation.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/bin/org/crazyit/activiti/ExecutionListenerInvocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/bin/org/crazyit/activiti/ExecutionListenerInvocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/process-listener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/process-listener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/resource/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/resource/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.1/callactivity/bin/bpmn/SubProcess.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.1/callactivity/bin/bpmn/SubProcess.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.1/callactivity/bin/org/crazyit/activiti/CallActivityVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.1/callactivity/bin/org/crazyit/activiti/CallActivityVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.1/callactivity/bin/org/crazyit/activiti/SimpleCallActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.1/callactivity/bin/org/crazyit/activiti/SimpleCallActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SubProcess.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SubProcess.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.1/callactivity/src/org/crazyit/activiti/CallActivityVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.1/callactivity/src/org/crazyit/activiti/CallActivityVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/bin/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/bin/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/bin/bpmn/Parallel.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/bin/bpmn/Parallel.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/EventBased.class" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/EventBased.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/Exclusive.class" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/Exclusive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/Inclusive.class" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/Inclusive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/Parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/bin/org/crazyit/activiti/Parallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/resource/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/resource/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/activiti-boot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/org/crazyit/activiti/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/org/crazyit/activiti/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/resources/processes/test1.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/org/crazyit/activiti/ActMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/org/crazyit/activiti/ActMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/org/crazyit/activiti/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/org/crazyit/activiti/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/processes/test1.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/16.4/boot-web/boot-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/18.2/form/bin/org/crazyit/activiti/FormProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/18/18.2/form/bin/org/crazyit/activiti/FormProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/FormProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/FormProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa/oa/WEB-INF/classes/bpmn/SalaryAdjust.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/oa/oa/WEB-INF/classes/bpmn/SalaryAdjust.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa/oa/WEB-INF/classes/bpmn/Vacation.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/oa/oa/WEB-INF/classes/bpmn/Vacation.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa/resource/bpmn/SalaryAdjust.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/oa/resource/bpmn/SalaryAdjust.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa/src/org/crazyit/activiti/oa/service/impl/ProcessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa/src/org/crazyit/activiti/oa/service/impl/ProcessServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/12/12.2/activiti-assign/bin/" />
-    <ignored path="$PROJECT_DIR$/16/16.4/activiti-boot/target/classes/" />
     <ignored path="$PROJECT_DIR$/12/12.4/activiti-expression/bin/" />
     <ignored path="$PROJECT_DIR$/06/6.1/add-group/bin/" />
     <ignored path="$PROJECT_DIR$/07/7.1/add-resource/bin/" />
@@ -130,94 +284,157 @@
     <ignored path="$PROJECT_DIR$/12/12.4/webservice/bin/" />
     <ignored path="$PROJECT_DIR$/12/12.4/webservice-task/bin/" />
     <ignored path="$PROJECT_DIR$/16/16.4/boot-web/target/" />
+    <ignored path="$PROJECT_DIR$/16/16.4/activiti-boot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="codes" />
+    <favorites_list name="Unnamed">
+      <favorite_root url="org.crazyit.activiti.ToolsTaskQuery" module="history-query" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="file://$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/工器具领用.bpmn" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="org.crazyit.activiti.Candidate" module="bpmn-assign" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="org.crazyit.activiti.AddBpmnModel" module="add-resource" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="org.crazyit.activiti.controller.MyController" module="activiti-boot" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
+    <favorites_list name="动态表单">
+      <favorite_root url="org.crazyit.activiti.FormProperty" module="form" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/FormProperty.java">
+        <entry file="file://$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/CompeteParallel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="368">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="method#main#0;class#CompeteParallel#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/ExternalForm.java">
+        <entry file="file://$PROJECT_DIR$/04/4.5/custom-interceptor/src/org/crazyit/activiti/TestConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04/4.5/custom-interceptor/src/org/crazyit/activiti/InterceptorA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/src/org/crazyit/activiti/ValidateTransferDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/CompensationBoundaryEvent.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>startProcessInstanceByKey</find>
-      <find>当前流程节点</find>
-      <find>activityId</find>
-      <find>messageintermediatecatchevent1</find>
+      <find>isDu</find>
+      <find>activiti:formProperty</find>
+      <find>processVariableValueEquals</find>
+      <find>&lt;activiti:field</find>
+      <find>${myBean</find>
+      <find>activiti:field</find>
+      <find>task.getName</find>
+      <find>22</find>
+      <find>Id</find>
+      <find>Listener</find>
+      <find>ExecutionListenerInvocation</find>
+      <find>sequenceFlow</find>
+      <find>my_file_name</find>
+      <find>startProcessInstanceBy</find>
+      <find>deploy</find>
+      <find>taskCandidateUser</find>
+      <find>ExecutionListener</find>
+      <find>&lt;conditionExpression xsi</find>
+      <find>&lt;![CDATA[</find>
+      <find>panda</find>
+      <find>processDefinitionKey</find>
       <find>testProcess</find>
-      <find>userTas</find>
-      <find>addCa</find>
-      <find>结束流程</find>
-      <find>start</find>
-      <find>结束</find>
-      <find>activiti:dueDate</find>
-      <find>activiti:</find>
-      <find>onlyCh</find>
-      <find>流对象</find>
-      <find>messageE</find>
-      <find>messageEventReceived</find>
-      <find>处理汇款业务</find>
-      <find>处理回滚汇款业务</find>
-      <find>处理子流程取消后的业务</find>
-      <find>RemitDelegate</find>
-      <find>usertask1</find>
-      <find>取消汇款</find>
-      <find>RollbackRemitDelegate</find>
-      <find>ReceiveCancelDelegate</find>
-      <find>isForCompensation</find>
-      <find>activiti:class</find>
-      <find>SignalThrowEvent</find>
-      <find>Class</find>
-      <find>getFormPr</find>
-      <find>FormService</find>
+      <find>撤销</find>
+      <find>ParallelGateway</find>
+      <find>完成任务1</find>
+      <find>back</find>
+      <find>剩下的任务</find>
+      <find>24</find>
+      <find>拦截</find>
+      <find>失败</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/09/9.4/process-signal/resource/bpmn/signalEventReceived.bpmn.xml" />
-        <option value="$PROJECT_DIR$/09/9.4/process-signal/src/org/crazyit/activiti/SignaleEventReceived.java" />
-        <option value="$PROJECT_DIR$/09/9.4/process-signal/src/org/crazyit/activiti/MessageEvent.java" />
-        <option value="$PROJECT_DIR$/09/9.4/process-control/src/org/crazyit/activiti/SuspendProcess.java" />
-        <option value="$PROJECT_DIR$/09/9.5/process-query/resource/bpmn/ExecutionQuery.bpmn.xml" />
-        <option value="$PROJECT_DIR$/09/9.5/process-query/resource/bpmn/ProcessInstanceQuery.bpmn" />
-        <option value="$PROJECT_DIR$/09/9.5/process-query/src/org/crazyit/activiti/ExecutionQuery.java" />
-        <option value="$PROJECT_DIR$/12/12.2/activiti-assign/src/org/crazyit/activiti/TaskListener.java" />
-        <option value="$PROJECT_DIR$/12/12.2/bpmn-assign/src/org/crazyit/activiti/Candidate.java" />
-        <option value="$PROJECT_DIR$/09/9.5/process-query/src/org/crazyit/activiti/ProcessInstanceQuery.java" />
-        <option value="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/TaskQuery.bpmn" />
-        <option value="$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java" />
-        <option value="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/TaskQuery.bpmn.xml" />
-        <option value="$PROJECT_DIR$/08/8.3/task-variable/src/org/crazyit/activiti/SerilizableVariableType.java" />
-        <option value="$PROJECT_DIR$/11/11.3/start-event/src/org/crazyit/activiti/MessageStartEvent.java" />
         <option value="$PROJECT_DIR$/11/11.3/start-event/src/org/crazyit/activiti/CheckServerDelegate.java" />
         <option value="$PROJECT_DIR$/11/11.3/start-event/resource/bpmn/ErrorStartEvent.bpmn.xml" />
         <option value="$PROJECT_DIR$/11/11.4/end-event/src/org/crazyit/activiti/ErrorEndEvent.java" />
         <option value="$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/ErrorEndEvent.bpmn.xml" />
-        <option value="$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml" />
         <option value="$PROJECT_DIR$/11/11.4/end-event/src/org/crazyit/activiti/CancelEndEvent.java" />
         <option value="$PROJECT_DIR$/11/11.3/start-event/resource/bpmn/TimerStartEvent.bpmn.xml" />
         <option value="$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/TimerBoundaryEvent.bpmn.xml" />
@@ -225,13 +442,46 @@
         <option value="$PROJECT_DIR$/11/11.6/intermediate-event/resource/bpmn/TimerCatchingEvent.bpmn.xml" />
         <option value="$PROJECT_DIR$/11/11.7/compensation-times/resource/bpmn/CompensationTimes.bpmn.xml" />
         <option value="$PROJECT_DIR$/11/11.7/compensation-times/resource/bpmn/CompensationTimes.bpmn" />
-        <option value="$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml" />
         <option value="$PROJECT_DIR$/13/13.1/embeded-subprocess/resource/bpmn/EmbededSubProcess.bpmn.xml" />
         <option value="$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SimpleCallActivity.bpmn.xml" />
         <option value="$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SubProcess.bpmn.xml" />
-        <option value="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn.xml" />
         <option value="$PROJECT_DIR$/16/16.2/integrate-spring/src/org/crazyit/activiti/ActivitiUseBean.java" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/main/activiti/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/test/java/ActMainTest.java" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/test/java/FindTest.java" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/resources/processes/工器具领用.bpmn" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/org/crazyit/activiti/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java" />
+        <option value="$PROJECT_DIR$/16/16.4/boot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/12/12.2/bpmn-assign/src/org/crazyit/activiti/Candidate.java" />
+        <option value="$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/ToolsTaskQuery.java" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/resources/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/ActivityQuery.bpmn" />
+        <option value="$PROJECT_DIR$/07/7.1/add-resource/resource/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/06/6.3/authenticated-user/src/org/crazyit/activiti/AuthenticatedUserId.java" />
+        <option value="$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/工器具领用.bpmn" />
+        <option value="$PROJECT_DIR$/18/18.2/form/resource/bpmn/FormProperty.bpmn.xml" />
+        <option value="$PROJECT_DIR$/07/7.1/add-resource/src/org/crazyit/activiti/AddBpmnModel.java" />
+        <option value="$PROJECT_DIR$/17/rs-client/resource/bpmn/FormProperties.bpmn.xml" />
         <option value="$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/FormProperty.java" />
+        <option value="$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml" />
+        <option value="$PROJECT_DIR$/12/12.6/task-listener/resource/bpmn/ExpressionTaskListener.bpmn.xml" />
+        <option value="$PROJECT_DIR$/13/13.1/callactivity/src/org/crazyit/activiti/CallActivityVariable.java" />
+        <option value="$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml" />
+        <option value="$PROJECT_DIR$/12/12.7/process-listener/resource/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/SequenceflowListener.java" />
+        <option value="$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java" />
+        <option value="$PROJECT_DIR$/12/12.2/bpmn-assign/resource/bpmn/Candidate.bpmn.xml" />
+        <option value="$PROJECT_DIR$/13/13.3/gateway/resource/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/Parallel.java" />
+        <option value="$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/competeParallel.java" />
+        <option value="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn.xml" />
+        <option value="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn" />
+        <option value="$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn.xml" />
+        <option value="$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn" />
+        <option value="$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/CompeteParallel.java" />
       </list>
     </option>
   </component>
@@ -243,10 +493,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="828" />
+    <option name="y" value="297" />
+    <option name="width" value="1404" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectView">
@@ -254,49 +510,88 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="add-resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="add-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="add-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="artifact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="add-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="add-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="build-engine" type="462c0819:PsiDirectoryNode" />
+              <item name="boundary-event" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="build-engine" type="462c0819:PsiDirectoryNode" />
+              <item name="boundary-event" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boundary-event" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boundary-event" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boundary-event" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpmn-assign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpmn-assign" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpmn-assign" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpmn-assign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpmn-assign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
@@ -326,118 +621,223 @@
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compensation-times" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compensation-times" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compensation-times" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-bpmn-converter-6.0.0.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compensation-times" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compensation-times" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-bpmn-converter-6.0.0.jar" type="ab9368bb:PsiFileNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-drools" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-bpmn-converter-6.0.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-drools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-drools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="drools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="integrate-spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="integrate-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="integrate-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="integrate-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="integrate-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="delegate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="integrate-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="job-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="job-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-engine-6.0.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans-4.3.8.RELEASE.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans-4.3.8.RELEASE.jar" type="ab9368bb:PsiFileNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans-4.3.8.RELEASE.jar" type="ab9368bb:PsiFileNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans-4.3.8.RELEASE.jar" type="ab9368bb:PsiFileNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="end-event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="end-event" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="job-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="end-event" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="bpmn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="history-query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="history-query" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="history-query" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="history-query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="history-query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
@@ -453,6 +853,93 @@
               <item name="process-listener" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="process-listener" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="process-listener" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sequence-flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sequence-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sequence-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="start-process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="start-process" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="start-process" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="start-process" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="start-process" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-candidate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-candidate" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-listener" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-listener" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-listener" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-listener" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,9 +948,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/12/12.2/activiti-assign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13/13.3/gateway/resource/bpmn" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -478,12 +972,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.crazyit.activiti" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Activiti\Activiti源码\codes\13\13.2\sequence-flow\resource\bpmn" />
-      <recent name="D:\Activiti\Activiti源码\codes\13\13.1\callactivity\resource\bpmn" />
-      <recent name="D:\Activiti\Activiti源码\codes\13\13.1\embeded-subprocess\resource\bpmn" />
+      <recent name="D:\Activiti\Activiti源码\codes\13\13.3\gateway\resource\bpmn" />
       <recent name="D:\Activiti\Activiti源码\codes\12\12.7\process-listener\resource\bpmn" />
-      <recent name="D:\Activiti\Activiti源码\codes\11\11.7\compensation-times\resource\bpmn" />
+      <recent name="D:\Activiti\Activiti源码\codes\12\12.6\task-listener\resource\bpmn" />
+      <recent name="D:\Activiti\Activiti源码\codes\18\18.2\form\resource\bpmn" />
+      <recent name="D:\Activiti\Activiti源码\codes\17\rs-client\resource\bpmn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -498,16 +996,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FormProperty">
+  <component name="RunManager" selected="Application.CompeteParallel">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CancelEndEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.CancelEndEvent" />
-      <module name="end-event" />
+    <configuration name="CallActivityVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.CallActivityVariable" />
+      <module name="callactivity" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -519,9 +1017,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Candidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.Candidate" />
-      <module name="bpmn-assign" />
+    <configuration name="CompeteParallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.CompeteParallel" />
+      <module name="gateway" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -533,9 +1031,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompensationTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.CompensationTimes" />
-      <module name="compensation-times" />
+    <configuration name="ExecutionListenerInvocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.ExecutionListenerInvocation" />
+      <module name="process-listener" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -547,13 +1045,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.crazyit.drools.FirstTest" />
-      <module name="first-drools" />
+    <configuration name="Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.Parallel" />
+      <module name="gateway" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.crazyit.drools.*" />
+          <option name="PATTERN" value="org.crazyit.activiti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -561,9 +1059,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.FormProperty" />
-      <module name="form" />
+    <configuration name="SimpleCallActivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.crazyit.activiti.SimpleCallActivity" />
+      <module name="callactivity" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -608,11 +1106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FormProperty" />
-        <item itemvalue="Application.FirstTest" />
-        <item itemvalue="Application.CompensationTimes" />
-        <item itemvalue="Application.CancelEndEvent" />
-        <item itemvalue="Application.Candidate" />
+        <item itemvalue="Application.CompeteParallel" />
+        <item itemvalue="Application.Parallel" />
+        <item itemvalue="Application.ExecutionListenerInvocation" />
+        <item itemvalue="Application.CallActivityVariable" />
+        <item itemvalue="Application.SimpleCallActivity" />
       </list>
     </recent_temporary>
   </component>
@@ -643,56 +1141,119 @@
       <workItem from="1567162481713" duration="150000" />
       <workItem from="1567315063032" duration="7433000" />
       <workItem from="1567423596415" duration="121000" />
+      <workItem from="1567476335862" duration="117000" />
+      <workItem from="1567821831788" duration="691000" />
+      <workItem from="1567866895829" duration="19808000" />
+      <workItem from="1567992646428" duration="829000" />
+      <workItem from="1567995051191" duration="441000" />
+      <workItem from="1568001516152" duration="3152000" />
+      <workItem from="1568012988484" duration="624000" />
+      <workItem from="1568016484942" duration="601000" />
+      <workItem from="1568021271593" duration="45000" />
+      <workItem from="1568021507088" duration="182000" />
+      <workItem from="1568021743847" duration="199000" />
+      <workItem from="1568114844674" duration="2020000" />
+      <workItem from="1568165626115" duration="60000" />
+      <workItem from="1568165761815" duration="1543000" />
+      <workItem from="1568170748512" duration="6230000" />
+      <workItem from="1568192248988" duration="1456000" />
+      <workItem from="1568251104039" duration="5926000" />
+      <workItem from="1568596608234" duration="1726000" />
+      <workItem from="1568613203412" duration="3829000" />
+      <workItem from="1568619549344" duration="537000" />
+      <workItem from="1568620450304" duration="4044000" />
+      <workItem from="1568625050137" duration="1146000" />
+      <workItem from="1568626515006" duration="587000" />
+      <workItem from="1568628417899" duration="1932000" />
+      <workItem from="1568633989375" duration="1366000" />
+      <workItem from="1568682125247" duration="2666000" />
+      <workItem from="1568706054508" duration="2051000" />
+      <workItem from="1568775148880" duration="5000" />
+      <workItem from="1568948717794" duration="3326000" />
+      <workItem from="1568971357092" duration="669000" />
+      <workItem from="1568972061152" duration="266000" />
+      <workItem from="1568988328731" duration="5065000" />
+      <workItem from="1569024799151" duration="4838000" />
+      <workItem from="1569056041567" duration="1218000" />
+      <workItem from="1569079056547" duration="32000" />
+      <workItem from="1569124217703" duration="677000" />
+      <workItem from="1569201344417" duration="694000" />
+      <workItem from="1569225165481" duration="3627000" />
+      <workItem from="1569299314242" duration="12489000" />
+      <workItem from="1569373882596" duration="1286000" />
+      <workItem from="1569460133166" duration="592000" />
+      <workItem from="1569726840277" duration="1993000" />
+      <workItem from="1569806083928" duration="656000" />
+      <workItem from="1569808659260" duration="775000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FindTest - 2019.09.07 at 23h 39m 53s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindTest - 2019.09.07 at 23h 40m 35s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindTest_asdfa - 2019.09.07 at 23h 41m 02s.xml">
+      <configuration name="FindTest.asdfa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindTest - 2019.09.07 at 23h 41m 46s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindTest - 2019.09.07 at 23h 43m 12s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34133000" />
+    <option name="totallyTimeSpent" value="136149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24697337" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45054945" visible="true" weight="0.23405972" />
+      <window_info id="Structure" order="1" sideWeight="0.5457876" side_tool="true" weight="0.17352703" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="BPMN Editor" order="7" weight="0.3255814" />
+      <window_info id="Favorites" order="6" sideWeight="0.5494506" side_tool="true" weight="0.2235674" />
+      <window_info id="BPMN Editor" order="7" sideWeight="0.44505495" visible="true" weight="0.14769976" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18533605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918533" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2728938" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43223444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Gradle View" order="10" weight="0.32967034" />
+      <window_info anchor="bottom" id="Gradle View" order="8" weight="0.3290441" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.35714287" />
       <window_info anchor="bottom" id="Run with VisualVM" order="14" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3299389" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32967034" />
       <window_info anchor="bottom" id="MyBatis Log" order="18" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3292978" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="BPMNPalette" order="6" weight="0.32890365" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="BPMNPalette" order="6" weight="0.2259887" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3292978" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="RestServices" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3292978" />
+      <window_info anchor="right" id="PlantUML" order="12" />
+      <window_info anchor="right" id="Codota" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +1300,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java</url>
-          <line>51</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -755,285 +1316,386 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/org/crazyit/activiti/controller/MyController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/org/crazyit/activiti/controller/MyController.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/ToolsTaskQuery.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/Parallel.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/SequenceflowListener.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/CompeteParallel.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/CompeteParallel.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="processInstance.getBusinessKey()" language="JAVA" custom="org.activiti.engine.impl.persistence.entity.ExecutionEntityImpl" />
+        <watch expression="runtimeService.createProcessInstanceQuery().list()" language="JAVA" />
+      </configuration>
       <configuration name="Application">
-        <watch expression="runtimeService.createExecutionQuery().processDefinitionKey(&quot;testProcess&quot;).singleResult()" language="JAVA" />
-        <watch expression="runtimeService.createExecutionQuery().activityId(&quot;messageintermediatecatchevent1&quot;).list()" language="JAVA" />
-        <watch expression="taskService.createTaskQuery().taskAssignee(&quot;user1&quot;).list()" language="JAVA" />
+        <watch expression="taskService.createTaskQuery().processInstanceId(pi.getId()).singleResult()" language="JAVA" />
+        <watch expression="taskService.createTaskQuery().processInstanceId(pi.getId()).singleResult()" language="JAVA" />
+        <watch expression="taskService.createTaskQuery().processInstanceId(pi.getId()).list()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>taskService.createTaskQuery().taskAssignee(&quot;user1&quot;).list()</expression-string>
+        <expression-string>taskService.createTaskQuery().processInstanceId(pi.getId()).list()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().activityId(&quot;messageintermediatecatchevent1&quot;).list()</expression-string>
+        <expression-string>taskService.createTaskQuery().processInstanceId(pi.getId()).singleResult()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().activityId(&quot;signalintermediatecatchevent1&quot;).list()</expression-string>
+        <expression-string>t.getName()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().activityId(&quot;&quot;)</expression-string>
+        <expression-string>t.get</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().processInstanceBusinessKey(&quot;businessKey1&quot;).singleResult().getActivityId()</expression-string>
+        <expression-string>repositoryService.getProcessDefinition(((DeploymentEntityImpl) deployment).id)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.activiti.engine.impl.persistence.entity.DeploymentEntityImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>delegateExecution.getParent()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().processInstanceBusinessKey(&quot;businessKey1&quot;).singleResult().getName()</expression-string>
+        <expression-string>delegateExecution.getParent().getProcessDefinitionId()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().processInstanceBusinessKey(&quot;businessKey1&quot;).singleResult()</expression-string>
+        <expression-string>taskOwnerMap</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().processInstanceBusinessKey()</expression-string>
+        <expression-string>runtimeService.createProcessInstanceQuery().list()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>runtimeService.createExecutionQuery().processDefinitionKey(&quot;testProcess&quot;).singleResult()</expression-string>
+        <expression-string>processInstance.getBusinessKey()</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>runtimeService.createExecutionQuery().processDefinitionKey(&quot;&quot;)</expression-string>
-        <language-id>JAVA</language-id>
+        <custom-info>org.activiti.engine.impl.persistence.entity.ExecutionEntityImpl</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/TimerBoundaryEvent.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/TimerBoundaryEvent.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/16/16.4/activiti-boot/src/main/java/org/crazyit/activiti/controller/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/ErrorBoundaryEvent.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/ErrorBoundaryEvent.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.6/intermediate-event/src/org/crazyit/activiti/TimerCatchingEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        <state relative-caret-position="95">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="method#main#0;class#TimerCatchingEvent#0" expanded="true" />
+            <element signature="method#startAll#0;class#MyController#0" expanded="true" />
+            <element signature="method#ins#0;class#MyController#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.6/intermediate-event/resource/bpmn/TimerCatchingEvent.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/07/7.1/add-resource/resource/activiti.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <element signature="n#bpmndi:BPMNDiagram#0;n#definitions#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.3/start-event/resource/bpmn/TimerStartEvent.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/CompensationBoundaryEvent.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/7.3/set-candidate/resource/bpmn/candidateGroup.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/7.3/set-candidate/resource/bpmn/candidateQuery.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/7.3/set-candidate/resource/bpmn/candidateUser.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08/8.2/task-candidate/resource/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.6/intermediate-event/resource/bpmn/TimerCatchingEvent.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/EventBased.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Exclusive.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Inclusive.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06/6.3/update-user/resource/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06/6.4/userinfo/resource/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10/10.3/job-manage/resource/bpmn/jobException.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10/10.3/job-manage/resource/bpmn/moveJob_1.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06/6.4/userinfo/resource/artifact/picture.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.7/compensation-times/resource/bpmn/CompensationTimes.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.7/compensation-times/src/org/crazyit/activiti/ThrowError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="209">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="method#execute#0;class#ThrowError#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.7/compensation-times/src/org/crazyit/activiti/RegularWork.java">
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-bpmn-converter-6.0.0.jar!/org/activiti/impl/bpmn/parser/Semantic.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="method#execute#0;class#RegularWork#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="463">
+          <caret line="1372" column="16" selection-start-line="1372" selection-start-column="16" selection-end-line="1372" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.7/compensation-times/src/org/crazyit/activiti/CompensationWork.java">
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/resource/bpmn/ExpressionTaskListener.bpmn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="method#execute#0;class#CompensationWork#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.7/compensation-times/src/org/crazyit/activiti/CompensationTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="method#main#0;class#CompensationTimes#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn">
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/resource/bpmn/ExpressionTaskListener.bpmn">
       <provider selected="true" editor-type-id="bpmn-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/DelegateExpressionTaskListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.1/embeded-subprocess/resource/bpmn/EmbededSubProcess.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.1/embeded-subprocess/resource/bpmn/EmbededSubProcess.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/ExpressionTaskListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/src/org/crazyit/activiti/SimpleCallActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="380">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SimpleCallActivity.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SubProcess.bpmn.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/task/TaskInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="1121">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SubProcess.bpmn">
       <provider selected="true" editor-type-id="bpmn-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SubProcess.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/ListenerFire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/resource/bpmn/SimpleCallActivity.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/11.7/compensation-times/resource/bpmn/CompensationTimes.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/13.2/sequence-flow/src/org/crazyit/activiti/DefaultSequenceFlow.java">
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/PropertyConfigListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/PropertyInjection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/TaskListenerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/TaskListenerB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.6/task-listener/src/org/crazyit/activiti/TaskListenerC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/13.1/callactivity/src/org/crazyit/activiti/CallActivityVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/RepositoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20463">
+          <caret line="1077" column="8" selection-start-line="1077" selection-start-column="8" selection-end-line="1077" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/RuntimeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/resource/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="96" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/repository/DeploymentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-bpmn-converter-6.0.0.jar!/org/activiti/impl/bpmn/parser/activiti-bpmn-extensions-5.18.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5453">
+          <caret line="287" column="8" selection-start-line="287" selection-start-column="8" selection-end-line="287" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/persistence/entity/ExecutionEntityImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/delegate/DelegateExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/delegate/VariableScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/10.1/history-query/resource/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/src/org/crazyit/activiti/SequenceflowListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="method#main#0;class#DefaultSequenceFlow#0" expanded="true" />
-            <element signature="e#987#1003#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#notify#0;class#SequenceflowListener#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.2/bpmn-assign/src/org/crazyit/activiti/Candidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.2/bpmn-assign/resource/bpmn/Candidate.bpmn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/10.1/history-query/resource/bpmn/TaskQuery.bpmn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/12.7/process-listener/bin/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1041,82 +1703,70 @@
       <provider selected="true" editor-type-id="bpmn-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/13/13.2/sequence-flow/resource/bpmn/DefaultSequenceFlow.bpmn.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="114">
+          <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14/14.2/first-drools/src/org/crazyit/drools/Person.java">
+    <entry file="jar://$PROJECT_DIR$/common-lib/lib/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/TaskService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="228" column="57" selection-start-line="228" selection-start-column="57" selection-end-line="228" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14/14.2/first-drools/resource/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14/14.2/first-drools/resource/rule/first.drl">
+    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/Parallel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="-374">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16/16.2/integrate-spring/src/org/crazyit/activiti/ActivitiUseBean.java">
+    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/src/org/crazyit/activiti/CompeteParallel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16/16.2/integrate-spring/src/org/crazyit/activiti/spring/impl/MyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16/16.4/boot-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16/16.4/boot-web/src/main/java/org/crazyit/activiti/WebMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="368">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
           <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
+            <element signature="method#main#0;class#CompeteParallel#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14/14.2/first-drools/src/org/crazyit/drools/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/04/4.5/custom-interceptor/src/org/crazyit/activiti/TestConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="323">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/FormProperty.java">
+    <entry file="file://$PROJECT_DIR$/04/4.5/custom-interceptor/src/org/crazyit/activiti/InterceptorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/src/org/crazyit/activiti/ValidateTransferDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#1107#1123#0" expanded="true" />
-          </folding>
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18/18.2/form/src/org/crazyit/activiti/ExternalForm.java">
+    <entry file="file://$PROJECT_DIR$/11/11.5/boundary-event/resource/bpmn/CompensationBoundaryEvent.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="247">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/13.3/gateway/resource/bpmn/Parallel.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1170,7 +1820,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>boot-web</last-edited>
+          <last-edited>activiti-boot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,6 +7,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/16/16.4/boot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/16/16.4/activiti-boot/pom.xml" />
       </list>
     </option>
   </component>

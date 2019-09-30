@@ -25,13 +25,23 @@
             <sequenceFlow id="flow3" sourceRef="startevent2" targetRef="servicetask1"></sequenceFlow>
             <sequenceFlow id="flow4" sourceRef="servicetask1" targetRef="usertask1"></sequenceFlow>
             <sequenceFlow id="flow5" sourceRef="usertask1" targetRef="exclusivegateway1"></sequenceFlow>
-            <sequenceFlow id="flow6" sourceRef="exclusivegateway1" targetRef="endevent1">
-                <conditionExpression xsi:type="tFormalExpression"><![CDATA[${confirm == true}]]></conditionExpression>
+
+            <sequenceFlow id="flow6"
+                          sourceRef="exclusivegateway1"
+                          targetRef="endevent1">
+                <conditionExpression xsi:type="tFormalExpression">
+                    <![CDATA[${confirm == true}]]>
+                </conditionExpression>
             </sequenceFlow>
-            <sequenceFlow id="flow7" sourceRef="exclusivegateway1" targetRef="endevent2">
-                <conditionExpression xsi:type="tFormalExpression"><![CDATA[${confirm ==
-					false}]]></conditionExpression>
+
+            <sequenceFlow id="flow7"
+                          sourceRef="exclusivegateway1"
+                          targetRef="endevent2">
+                <conditionExpression xsi:type="tFormalExpression">
+                    <![CDATA[${confirm ==false}]]>
+                </conditionExpression>
             </sequenceFlow>
+
             <association id="a1" sourceRef="boundarysignal1" targetRef="servicetask2"></association>
         </transaction>
         <boundaryEvent id="boundarysignal2" attachedToRef="subprocess1" cancelActivity="true">

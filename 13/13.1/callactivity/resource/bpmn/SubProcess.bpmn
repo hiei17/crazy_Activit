@@ -4,6 +4,7 @@
 	xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
 	xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema"
 	expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+	
 	<process id="SubProcess" name="SubProcess">
 		<startEvent id="startevent1" name="Start"></startEvent>
 		<userTask id="servicetask1" name="人事审批"></userTask>
@@ -16,6 +17,7 @@
 		<sequenceFlow id="flow3" name="" sourceRef="usertask1"
 			targetRef="endevent1"></sequenceFlow>
 	</process>
+	
 	<bpmndi:BPMNDiagram id="BPMNDiagram_SubProcess">
 		<bpmndi:BPMNPlane bpmnElement="SubProcess" id="BPMNPlane_SubProcess">
 			<bpmndi:BPMNShape bpmnElement="startevent1"

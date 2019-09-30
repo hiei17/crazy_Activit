@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-app-logic-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-app-rest-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-converter-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-layout-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-model-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-camel-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-cdi-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-common-rest-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-cxf-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-api-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-engine-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-engine-configurator-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-json-converter-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-model-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-rest-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-xml-converter-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-engine-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-api-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-engine-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-engine-configurator-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-json-converter-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-model-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-image-generator-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-jms-spring-executor-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-jmx-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-json-converter-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-ldap-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-mule-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-osgi-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-process-validation-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-rest-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-secure-javascript-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-actuator-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-basic-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-integration-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-jpa-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-rest-api-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-security-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-compatibility-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-engine-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-spring-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-spring-compatibility-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/c3p0-0.9.1.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/com.springsource.org.joda.time-1.6.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/commons-dbcp2-2.1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/commons-lang3-3.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/commons-logging-1.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/commons-pool2-2.4.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/content-storage-api-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/content-storage-fs-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/editor-image-generator-6.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/el-api-2.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/el-ri-1.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/groovy-2.4.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/groovy-jsr223-2.4.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/jackson-annotations-2.8.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/jackson-core-2.8.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/jackson-databind-2.8.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/juel-impl-2.2.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/log4j-1.2.17.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/mybatis-3.4.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/mysql-connector-java-5.1.42.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/slf4j-api-1.7.9.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/slf4j-log4j12-1.7.9.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/spring-beans-4.3.8.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../common-lib/lib/spring-core-4.3.8.RELEASE.jar!/" />
+    <libelement value="file:///common-lib/lib/activiti-app-logic-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-app-rest-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-bpmn-converter-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-bpmn-layout-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-bpmn-model-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-camel-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-cdi-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-common-rest-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-cxf-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-api-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-engine-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-engine-configurator-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-json-converter-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-model-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-rest-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-dmn-xml-converter-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-engine-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-form-api-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-form-engine-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-form-engine-configurator-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-form-json-converter-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-form-model-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-image-generator-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-jms-spring-executor-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-jmx-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-json-converter-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-ldap-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-mule-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-osgi-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-process-validation-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-rest-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-secure-javascript-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-boot-starter-actuator-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-boot-starter-basic-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-boot-starter-integration-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-boot-starter-jpa-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-boot-starter-rest-api-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti-spring-boot-starter-security-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti5-compatibility-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti5-engine-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti5-spring-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/activiti5-spring-compatibility-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/c3p0-0.9.1.2.jar" />
+    <libelement value="file:///common-lib/lib/com.springsource.org.joda.time-1.6.2.jar" />
+    <libelement value="file:///common-lib/lib/commons-dbcp2-2.1.1.jar" />
+    <libelement value="file:///common-lib/lib/commons-lang3-3.5.jar" />
+    <libelement value="file:///common-lib/lib/commons-logging-1.2.jar" />
+    <libelement value="file:///common-lib/lib/commons-pool2-2.4.2.jar" />
+    <libelement value="file:///common-lib/lib/content-storage-api-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/content-storage-fs-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/editor-image-generator-6.0.0.jar" />
+    <libelement value="file:///common-lib/lib/el-api-2.2.jar" />
+    <libelement value="file:///common-lib/lib/el-ri-1.0.jar" />
+    <libelement value="file:///common-lib/lib/groovy-2.4.8.jar" />
+    <libelement value="file:///common-lib/lib/groovy-jsr223-2.4.8.jar" />
+    <libelement value="file:///common-lib/lib/jackson-annotations-2.8.8.jar" />
+    <libelement value="file:///common-lib/lib/jackson-core-2.8.8.jar" />
+    <libelement value="file:///common-lib/lib/jackson-databind-2.8.8.jar" />
+    <libelement value="file:///common-lib/lib/juel-impl-2.2.7.jar" />
+    <libelement value="file:///common-lib/lib/log4j-1.2.17.jar" />
+    <libelement value="file:///common-lib/lib/mybatis-3.4.4.jar" />
+    <libelement value="file:///common-lib/lib/mysql-connector-java-5.1.42.jar" />
+    <libelement value="file:///common-lib/lib/slf4j-api-1.7.9.jar" />
+    <libelement value="file:///common-lib/lib/slf4j-log4j12-1.7.9.jar" />
+    <libelement value="file:///common-lib/lib/spring-beans-4.3.8.RELEASE.jar" />
+    <libelement value="file:///common-lib/lib/spring-core-4.3.8.RELEASE.jar" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
       <src_folder value="file://$MODULE_DIR$/resource" expected_position="1" />
@@ -81,11 +81,11 @@
       <sourceFolder url="file://$MODULE_DIR$/resource" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="JavaSE-1.6" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
       <library name="activiti-app-logic-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-app-logic-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-app-logic-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -94,7 +94,7 @@
     <orderEntry type="module-library">
       <library name="activiti-app-rest-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-app-rest-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-app-rest-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -103,7 +103,7 @@
     <orderEntry type="module-library">
       <library name="activiti-bpmn-converter-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-converter-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-bpmn-converter-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -112,7 +112,7 @@
     <orderEntry type="module-library">
       <library name="activiti-bpmn-layout-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-layout-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-bpmn-layout-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -121,18 +121,18 @@
     <orderEntry type="module-library">
       <library name="activiti-bpmn-model-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-model-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-bpmn-model-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-bpmn-model-6.0.0-sources.jar!/" />
+          <root url="file:///common-lib/lib/activiti-bpmn-model-6.0.0-sources.jar" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library name="activiti-camel-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-camel-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-camel-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -141,7 +141,7 @@
     <orderEntry type="module-library">
       <library name="activiti-cdi-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-cdi-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-cdi-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -150,7 +150,7 @@
     <orderEntry type="module-library">
       <library name="activiti-common-rest-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-common-rest-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-common-rest-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -159,7 +159,7 @@
     <orderEntry type="module-library">
       <library name="activiti-cxf-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-cxf-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-cxf-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -168,7 +168,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-api-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-api-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-api-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -177,7 +177,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-engine-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-engine-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-engine-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -186,7 +186,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-engine-configurator-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-engine-configurator-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-engine-configurator-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -195,7 +195,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-json-converter-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-json-converter-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-json-converter-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -204,7 +204,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-model-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-model-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-model-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -213,7 +213,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-rest-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-rest-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-rest-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -222,7 +222,7 @@
     <orderEntry type="module-library">
       <library name="activiti-dmn-xml-converter-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-dmn-xml-converter-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-dmn-xml-converter-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -231,7 +231,7 @@
     <orderEntry type="module-library">
       <library name="activiti-engine-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-engine-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-engine-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -240,7 +240,7 @@
     <orderEntry type="module-library">
       <library name="activiti-form-api-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-api-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-form-api-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -249,7 +249,7 @@
     <orderEntry type="module-library">
       <library name="activiti-form-engine-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-engine-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-form-engine-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -258,7 +258,7 @@
     <orderEntry type="module-library">
       <library name="activiti-form-engine-configurator-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-engine-configurator-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-form-engine-configurator-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -267,7 +267,7 @@
     <orderEntry type="module-library">
       <library name="activiti-form-json-converter-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-json-converter-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-form-json-converter-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -276,7 +276,7 @@
     <orderEntry type="module-library">
       <library name="activiti-form-model-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-form-model-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-form-model-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -285,7 +285,7 @@
     <orderEntry type="module-library">
       <library name="activiti-image-generator-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-image-generator-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-image-generator-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -294,7 +294,7 @@
     <orderEntry type="module-library">
       <library name="activiti-jms-spring-executor-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-jms-spring-executor-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-jms-spring-executor-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -303,7 +303,7 @@
     <orderEntry type="module-library">
       <library name="activiti-jmx-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-jmx-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-jmx-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -312,7 +312,7 @@
     <orderEntry type="module-library">
       <library name="activiti-json-converter-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-json-converter-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-json-converter-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -321,7 +321,7 @@
     <orderEntry type="module-library">
       <library name="activiti-ldap-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-ldap-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-ldap-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -330,7 +330,7 @@
     <orderEntry type="module-library">
       <library name="activiti-mule-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-mule-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-mule-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -339,7 +339,7 @@
     <orderEntry type="module-library">
       <library name="activiti-osgi-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-osgi-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-osgi-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -348,7 +348,7 @@
     <orderEntry type="module-library">
       <library name="activiti-process-validation-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-process-validation-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-process-validation-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -357,7 +357,7 @@
     <orderEntry type="module-library">
       <library name="activiti-rest-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-rest-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-rest-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -366,7 +366,7 @@
     <orderEntry type="module-library">
       <library name="activiti-secure-javascript-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-secure-javascript-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-secure-javascript-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -375,7 +375,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -384,7 +384,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-boot-starter-actuator-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-actuator-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-boot-starter-actuator-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -393,7 +393,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-boot-starter-basic-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-basic-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-boot-starter-basic-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -402,7 +402,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-boot-starter-integration-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-integration-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-boot-starter-integration-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -411,7 +411,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-boot-starter-jpa-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-jpa-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-boot-starter-jpa-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -420,7 +420,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-boot-starter-rest-api-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-rest-api-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-boot-starter-rest-api-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -429,7 +429,7 @@
     <orderEntry type="module-library">
       <library name="activiti-spring-boot-starter-security-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti-spring-boot-starter-security-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti-spring-boot-starter-security-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -438,7 +438,7 @@
     <orderEntry type="module-library">
       <library name="activiti5-compatibility-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-compatibility-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti5-compatibility-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -447,7 +447,7 @@
     <orderEntry type="module-library">
       <library name="activiti5-engine-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-engine-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti5-engine-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -456,7 +456,7 @@
     <orderEntry type="module-library">
       <library name="activiti5-spring-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-spring-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti5-spring-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -465,7 +465,7 @@
     <orderEntry type="module-library">
       <library name="activiti5-spring-compatibility-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/activiti5-spring-compatibility-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/activiti5-spring-compatibility-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -474,7 +474,7 @@
     <orderEntry type="module-library">
       <library name="c3p0-0.9.1.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/c3p0-0.9.1.2.jar!/" />
+          <root url="file:///common-lib/lib/c3p0-0.9.1.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -483,7 +483,7 @@
     <orderEntry type="module-library">
       <library name="com.springsource.org.joda.time-1.6.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/com.springsource.org.joda.time-1.6.2.jar!/" />
+          <root url="file:///common-lib/lib/com.springsource.org.joda.time-1.6.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -492,7 +492,7 @@
     <orderEntry type="module-library">
       <library name="commons-dbcp2-2.1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/commons-dbcp2-2.1.1.jar!/" />
+          <root url="file:///common-lib/lib/commons-dbcp2-2.1.1.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -501,7 +501,7 @@
     <orderEntry type="module-library">
       <library name="commons-lang3-3.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/commons-lang3-3.5.jar!/" />
+          <root url="file:///common-lib/lib/commons-lang3-3.5.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -510,7 +510,7 @@
     <orderEntry type="module-library">
       <library name="commons-logging-1.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/commons-logging-1.2.jar!/" />
+          <root url="file:///common-lib/lib/commons-logging-1.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -519,7 +519,7 @@
     <orderEntry type="module-library">
       <library name="commons-pool2-2.4.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/commons-pool2-2.4.2.jar!/" />
+          <root url="file:///common-lib/lib/commons-pool2-2.4.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -528,7 +528,7 @@
     <orderEntry type="module-library">
       <library name="content-storage-api-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/content-storage-api-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/content-storage-api-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -537,7 +537,7 @@
     <orderEntry type="module-library">
       <library name="content-storage-fs-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/content-storage-fs-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/content-storage-fs-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -546,7 +546,7 @@
     <orderEntry type="module-library">
       <library name="editor-image-generator-6.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/editor-image-generator-6.0.0.jar!/" />
+          <root url="file:///common-lib/lib/editor-image-generator-6.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -555,7 +555,7 @@
     <orderEntry type="module-library">
       <library name="el-api-2.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/el-api-2.2.jar!/" />
+          <root url="file:///common-lib/lib/el-api-2.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -564,7 +564,7 @@
     <orderEntry type="module-library">
       <library name="el-ri-1.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/el-ri-1.0.jar!/" />
+          <root url="file:///common-lib/lib/el-ri-1.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -573,7 +573,7 @@
     <orderEntry type="module-library">
       <library name="groovy-2.4.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/groovy-2.4.8.jar!/" />
+          <root url="file:///common-lib/lib/groovy-2.4.8.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -582,7 +582,7 @@
     <orderEntry type="module-library">
       <library name="groovy-jsr223-2.4.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/groovy-jsr223-2.4.8.jar!/" />
+          <root url="file:///common-lib/lib/groovy-jsr223-2.4.8.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -591,7 +591,7 @@
     <orderEntry type="module-library">
       <library name="jackson-annotations-2.8.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/jackson-annotations-2.8.8.jar!/" />
+          <root url="file:///common-lib/lib/jackson-annotations-2.8.8.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -600,7 +600,7 @@
     <orderEntry type="module-library">
       <library name="jackson-core-2.8.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/jackson-core-2.8.8.jar!/" />
+          <root url="file:///common-lib/lib/jackson-core-2.8.8.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -609,7 +609,7 @@
     <orderEntry type="module-library">
       <library name="jackson-databind-2.8.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/jackson-databind-2.8.8.jar!/" />
+          <root url="file:///common-lib/lib/jackson-databind-2.8.8.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -618,7 +618,7 @@
     <orderEntry type="module-library">
       <library name="juel-impl-2.2.7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/juel-impl-2.2.7.jar!/" />
+          <root url="file:///common-lib/lib/juel-impl-2.2.7.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -627,7 +627,7 @@
     <orderEntry type="module-library">
       <library name="log4j-1.2.17.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/log4j-1.2.17.jar!/" />
+          <root url="file:///common-lib/lib/log4j-1.2.17.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -636,7 +636,7 @@
     <orderEntry type="module-library">
       <library name="mybatis-3.4.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/mybatis-3.4.4.jar!/" />
+          <root url="file:///common-lib/lib/mybatis-3.4.4.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -645,7 +645,7 @@
     <orderEntry type="module-library">
       <library name="mysql-connector-java-5.1.42.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/mysql-connector-java-5.1.42.jar!/" />
+          <root url="file:///common-lib/lib/mysql-connector-java-5.1.42.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -654,7 +654,7 @@
     <orderEntry type="module-library">
       <library name="slf4j-api-1.7.9.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/slf4j-api-1.7.9.jar!/" />
+          <root url="file:///common-lib/lib/slf4j-api-1.7.9.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -663,7 +663,7 @@
     <orderEntry type="module-library">
       <library name="slf4j-log4j12-1.7.9.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/slf4j-log4j12-1.7.9.jar!/" />
+          <root url="file:///common-lib/lib/slf4j-log4j12-1.7.9.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -672,7 +672,7 @@
     <orderEntry type="module-library">
       <library name="spring-beans-4.3.8.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/spring-beans-4.3.8.RELEASE.jar!/" />
+          <root url="file:///common-lib/lib/spring-beans-4.3.8.RELEASE.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -681,7 +681,7 @@
     <orderEntry type="module-library">
       <library name="spring-core-4.3.8.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/spring-core-4.3.8.RELEASE.jar!/" />
+          <root url="file:///common-lib/lib/spring-core-4.3.8.RELEASE.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

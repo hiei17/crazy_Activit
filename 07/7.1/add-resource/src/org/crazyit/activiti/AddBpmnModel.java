@@ -1,13 +1,11 @@
 package org.crazyit.activiti;
 
-import org.activiti.bpmn.model.BpmnModel;
-import org.activiti.bpmn.model.EndEvent;
-import org.activiti.bpmn.model.SequenceFlow;
-import org.activiti.bpmn.model.StartEvent;
-import org.activiti.bpmn.model.UserTask;
+import org.activiti.bpmn.converter.BpmnXMLConverter;
+import org.activiti.bpmn.model.*;
 import org.activiti.engine.ProcessEngine;
 import org.activiti.engine.ProcessEngines;
 import org.activiti.engine.RepositoryService;
+import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.DeploymentBuilder;
 
 public class AddBpmnModel {
@@ -21,10 +19,18 @@ public class AddBpmnModel {
 		DeploymentBuilder builder = repositoryService.createDeployment();
 
 		//mark
-		builder
-				.addBpmnModel("MyCodeProcess", createProcessModel())
+		BpmnModel model = createProcessModel();
+		byte[] bytes = new BpmnXMLConverter().convertToXML(model);
+
+		String text = new String(bytes);
+		System.out.println(text);
+		Deployment deployment = repositoryService.createDeployment().name("panda").addString("panda.xml",
+				text).deploy();
+
+		/*builder
+				.addBpmnModel("MyCodeProcess", model)
 				.name("MyCodeDeploy")//mark 名字可不加
-				.deploy();
+				.deploy();*/
 	}
 
 	/**
@@ -47,6 +53,7 @@ public class AddBpmnModel {
 		UserTask userTask = new UserTask();
 		userTask.setName("User Task");
 		userTask.setId("userTask");
+		userTask.setOwner("1,3,4,5");
 		process.addFlowElement(userTask);
 		// 结束事件
 		EndEvent endEvent = new EndEvent();
@@ -56,6 +63,22 @@ public class AddBpmnModel {
 		process.addFlowElement(new SequenceFlow("startEvent", "userTask"));
 		process.addFlowElement(new SequenceFlow("userTask", "endEvent"));
 		return model;
+
+		/*
+		<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+  <process id="myProcess" name="My Process" isExecutable="true">
+    <startEvent id="startEvent"></startEvent>
+    <userTask id="userTask" name="User Task" activiti:owner="1,3,4,5"></userTask>
+    <endEvent id="endEvent"></endEvent>
+    <sequenceFlow sourceRef="startEvent" targetRef="userTask"></sequenceFlow>
+    <sequenceFlow sourceRef="userTask" targetRef="endEvent"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_myProcess">
+    <bpmndi:BPMNPlane bpmnElement="myProcess" id="BPMNPlane_myProcess"></bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
+		* */
 	}
 
 }

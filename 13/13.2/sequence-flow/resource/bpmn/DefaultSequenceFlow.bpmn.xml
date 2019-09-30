@@ -14,15 +14,16 @@
 
 		<sequenceFlow id="flow1" sourceRef="usertask1" targetRef="usertask2"/>
 		<sequenceFlow id="flow2" sourceRef="usertask1" targetRef="usertask3">
-			<conditionExpression xsi:type="tFormalExpression"><![CDATA[
-			${days > 5}
-			]]></conditionExpression>
+			<conditionExpression xsi:type="tFormalExpression"><![CDATA[${days > 5}
+]]></conditionExpression>
 		</sequenceFlow>
 		<sequenceFlow id="flow3" sourceRef="startevent1"
 					  targetRef="usertask1"/>
 		<sequenceFlow id="flow4" sourceRef="usertask2" targetRef="endevent1"/>
 		<sequenceFlow id="flow5" sourceRef="usertask3" targetRef="endevent1"/>
 	</process>
+
+
 	<bpmndi:BPMNDiagram id="BPMNDiagram_process1">
 		<bpmndi:BPMNPlane bpmnElement="process1" id="BPMNPlane_process1">
 			<bpmndi:BPMNShape bpmnElement="startevent1"

@@ -17,14 +17,23 @@ public class FormProperty {
 		RepositoryService repositoryService = engine.getRepositoryService();
 		FormService formService = engine.getFormService();
 		RuntimeService runtimeService = engine.getRuntimeService();
+
 		// 部署文件
 		Deployment dep = repositoryService.createDeployment()
 				.addClasspathResource("bpmn/FormProperty.bpmn").deploy();
+
 		// 查找流程定义
 		ProcessDefinition pd = repositoryService.createProcessDefinitionQuery()
 				.deploymentId(dep.getId()).singleResult();
 
-		List<org.activiti.engine.form.FormProperty> formProperties = formService.getStartFormData(pd.getId()).getFormProperties();
+
+		String pdId = pd.getId();
+
+
+		List<org.activiti.engine.form.FormProperty> formProperties = formService
+				.getStartFormData(pdId)
+				.getFormProperties();
+
 		for (org.activiti.engine.form.FormProperty formProperty : formProperties) {
 			String name = formProperty.getName();
 			System.out.println("need user input: "+name);//mark  这里可以给前端
@@ -33,7 +42,7 @@ public class FormProperty {
 		// 使用表单参数开始流程
 		Map<String, String> vars = new HashMap<String, String>();
 		vars.put("userName", "crazyit");
-		ProcessInstance pi = formService.submitStartFormData(pd.getId(), vars);
+		ProcessInstance pi = formService.submitStartFormData(pdId, vars);
 		// 查询参数
 		System.out.println(runtimeService.getVariable(pi.getId(), "userName"));
 	}

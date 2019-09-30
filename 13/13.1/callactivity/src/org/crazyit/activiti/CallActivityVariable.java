@@ -1,15 +1,11 @@
 package org.crazyit.activiti;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.ProcessEngines;
-import org.activiti.engine.RepositoryService;
-import org.activiti.engine.RuntimeService;
-import org.activiti.engine.TaskService;
+import org.activiti.engine.*;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class CallActivityVariable {
 
@@ -31,7 +27,7 @@ public class CallActivityVariable {
 				.addClasspathResource(
 						"bpmn/CallActivityVariable.bpmn")
 				.addClasspathResource("bpmn/SubProcess.bpmn")
-				.deploy();		
+				.deploy();
 		// 启动流程
 		ProcessInstance pi = runtimeService
 				.startProcessInstanceByKey("process1");
@@ -53,7 +49,7 @@ public class CallActivityVariable {
 		runtimeService.setVariable(subPi.getId(), "myDays", (days - 5));
 		// 完成子流程全部任务
 		task = taskService.createTaskQuery().singleResult();
-		System.out.println("当前任务：" + task.getName());
+		System.out.println("当前任务：" + task.getTaskDefinitionKey());
 		taskService.complete(task.getId());
 		task = taskService.createTaskQuery().singleResult();
 		System.out.println("当前任务：" + task.getName());

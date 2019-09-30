@@ -19,7 +19,9 @@ import java.util.Map;
  */
 public class TaskQuery {
 
+
 	public static void main(String[] args) throws Exception {
+
 		// 创建流程引擎
 		ProcessEngine engine = ProcessEngines.getDefaultProcessEngine();
 		// 得到流程存储服务实例
@@ -32,7 +34,7 @@ public class TaskQuery {
 		TaskService taskService = engine.getTaskService();
 		// 部署流程文件
 		Deployment deploy = repositoryService.createDeployment()
-				.addClasspathResource("bpmn/TaskQuery.bpmn").deploy();
+				.addClasspathResource("bpmn/工器具领用.bpmn").deploy();
 		ProcessDefinition define = repositoryService.createProcessDefinitionQuery()
 				.deploymentId(deploy.getId()).singleResult();
 
@@ -116,6 +118,10 @@ public class TaskQuery {
 		datas = historyService.createHistoricTaskInstanceQuery()
 				.unfinished().list();
 		System.out.println("使用unfinished方法查询：" + datas.size());//结果1
-	}
+
+
+
+
+    }
 
 }

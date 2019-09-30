@@ -1,21 +1,18 @@
 package org.crazyit.activiti;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.ProcessEngines;
-import org.activiti.engine.RepositoryService;
-import org.activiti.engine.RuntimeService;
-import org.activiti.engine.TaskService;
+import org.activiti.engine.*;
 import org.activiti.engine.runtime.Execution;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Parallel {
 
 	public static void main(String[] args) {
+
 		// 创建流程引擎
 		ProcessEngine engine = ProcessEngines.getDefaultProcessEngine();
 		// 得到流程存储服务组件
@@ -30,34 +27,48 @@ public class Parallel {
 		// 启动流程
 		ProcessInstance pi = runtimeService
 				.startProcessInstanceByKey("process1");
+
+
+
 		// 完成填写申请任务并设置参数
 		Map<String, Object> vars = new HashMap<String, Object>();
 		vars.put("days", 6);
 		Task task = taskService.createTaskQuery().processInstanceId(pi.getId())
 				.singleResult();
 		taskService.complete(task.getId(), vars);
+
 		// 查询执行流数量
 		List<Execution> exes = runtimeService.createExecutionQuery()
 				.processInstanceId(pi.getId()).list();
 		System.out.println("当前的执行流数量：" + exes.size());
-		// 完成人事审批任务
+
+		// 完成任务1
 		task = taskService.createTaskQuery().processInstanceId(pi.getId())
-				.taskName("人事审批").singleResult();
+				.taskName("task1").singleResult();
+
 		System.out.println("当前任务：" + task.getName());
 		taskService.complete(task.getId(), vars);
+		System.out.println("完成任务：" + task.getName());
+
 		// 查询执行流数量
 		exes = runtimeService.createExecutionQuery()
 				.processInstanceId(pi.getId()).list();
 		System.out.println("当前执行流数量：" + exes.size());
-		// 完成总监审批任务
+
+		// 完成并行任务2
 		task = taskService.createTaskQuery().processInstanceId(pi.getId())
-				.taskName("总监审批").singleResult();
+				.taskName("task2").singleResult();
 		System.out.println("当前任务：" + task.getName());
+
 		taskService.complete(task.getId(), vars);
+		System.out.println("完成任务:"+task.getName());
+
 		// 查询执行流数量
 		exes = runtimeService.createExecutionQuery()
 				.processInstanceId(pi.getId()).list();
 		System.out.println("当前执行流数量：" + exes.size());
+
+		engine.close();
 	}
 
 }

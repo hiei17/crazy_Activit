@@ -1,13 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7de4c7d-1ff1-4b1e-9253-551543331646" name="Default Changelist" comment="" />
+    <list default="true" id="a28cc81c-5c73-4bfb-9613-bee533da8090" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__joda_time_joda_time_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_basic_6_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/bpmn/TaskQuery.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/bpmn/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/ToolsTaskQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/resource/bpmn/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/resource/bpmn/工器具领用.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/src/org/crazyit/activiti/ToolsTaskQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../12/12.2/activiti-assign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../12/12.2/bpmn-assign/resource/bpmn/Assignee.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../12/12.2/bpmn-assign/resource/bpmn/Candidate.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../12/12.6/task-listener/resource/bpmn/ExpressionTaskListener.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/processes/工器具领用.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17/rs-client/resource/bpmn/FormProperties.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../18/18.2/form/resource/bpmn/FormProperty.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/resource/bpmn/CountSalary.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/resource/bpmn/ExpenseAccount.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/resource/bpmn/SalaryAdjust.bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oa/resource/bpmn/Vacation.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06/6.3/authenticated-user/src/org/crazyit/activiti/AuthenticatedUserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06/6.3/authenticated-user/src/org/crazyit/activiti/AuthenticatedUserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07/7.1/add-resource/bin/org/crazyit/activiti/AddBpmnModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07/7.1/add-resource/bin/org/crazyit/activiti/AddBpmnModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07/7.1/add-resource/resource/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07/7.1/add-resource/resource/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07/7.1/add-resource/src/org/crazyit/activiti/AddBpmnModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07/7.1/add-resource/src/org/crazyit/activiti/AddBpmnModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/bpmn/TaskQuery.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/bpmn/TaskQuery.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/ActivityQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/ActivityQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/DetailQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/DetailQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/ProcessInstanceQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/ProcessInstanceQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/TaskQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/bin/org/crazyit/activiti/TaskQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/resource/bpmn/ActivityQuery.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/resource/bpmn/ActivityQuery.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10/10.1/history-query/src/org/crazyit/activiti/TaskQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../11/11.4/end-event/resource/bpmn/CancelEndEvent.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../12/12.6/task-listener/task-listener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../12/12.6/task-listener/task-listener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../12/12.7/process-listener/process-listener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../12/12.7/process-listener/process-listener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../12/12.7/process-listener/resource/bpmn/ExecutionListenerInvocation.bpmn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../12/12.7/process-listener/src/org/crazyit/activiti/ExecutionListenerInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/EventBased.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/EventBased.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/Exclusive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/Exclusive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/Inclusive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/Inclusive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/Parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/13.3/gateway/bin/org/crazyit/activiti/Parallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/13.3/gateway/src/org/crazyit/activiti/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/13.3/gateway/src/org/crazyit/activiti/Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activiti-boot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/crazyit/activiti/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/crazyit/activiti/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/test1.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/crazyit/activiti/ActMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/crazyit/activiti/ActMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/crazyit/activiti/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/crazyit/activiti/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/processes/test1.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot-web/boot-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../18/18.2/form/bin/org/crazyit/activiti/FormProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../18/18.2/form/bin/org/crazyit/activiti/FormProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../18/18.2/form/src/org/crazyit/activiti/FormProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../18/18.2/form/src/org/crazyit/activiti/FormProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oa/resource/bpmn/SalaryAdjust.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oa/resource/bpmn/SalaryAdjust.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oa/src/org/crazyit/activiti/oa/service/impl/ProcessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oa/src/org/crazyit/activiti/oa/service/impl/ProcessServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="56" />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/crazyit/activiti/ActMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/crazyit/activiti/controller/MyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+              <folding>
+                <element signature="method#startAll#0;class#MyController#0" expanded="true" />
+                <element signature="method#ins#0;class#MyController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn.xml" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -16,38 +210,122 @@
         <option name="userSettingsFile" value="D:\develop\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="lookForNested" value="true" />
-      </MavenImportingSettings>
-    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti-boot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti-boot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-360" />
-    <option name="y" value="468" />
-    <option name="width" value="1890" />
+    <option name="x" value="828" />
+    <option name="y" value="297" />
+    <option name="width" value="1404" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="processes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Java/jdk1.8.0_211" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/processes" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Activiti\Activiti源码\codes\16\16.4\activiti-boot\src\main\resources\processes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,6 +359,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="activiti-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.crazyit.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.crazyit.activiti.ActMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -99,62 +390,120 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ActMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\chenshi\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7de4c7d-1ff1-4b1e-9253-551543331646" name="Default Changelist" comment="" />
-      <created>1566316662010</created>
+      <changelist id="a28cc81c-5c73-4bfb-9613-bee533da8090" name="Default Changelist" comment="" />
+      <created>1568273585281</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566316662010</updated>
-      <workItem from="1566316665319" duration="340000" />
+      <updated>1568273585281</updated>
+      <workItem from="1568273588893" duration="1809000" />
+      <workItem from="1568596609161" duration="1774000" />
+      <workItem from="1568620451457" duration="2235000" />
+      <workItem from="1568625048981" duration="936000" />
+      <workItem from="1568626517220" duration="1497000" />
+      <workItem from="1568628416720" duration="596000" />
+      <workItem from="1568949095858" duration="672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340000" />
+    <option name="totallyTimeSpent" value="9519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Gradle View" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="BPMN Editor" order="5" weight="0.17352703" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="RestServices" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="BPMNPalette" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Gradle View" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="bottom" id="MyBatis Log" order="17" />
+      <window_info anchor="bottom" id="Tail" order="18" />
+      <window_info anchor="bottom" id="Messages" order="19" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3292978" />
+      <window_info anchor="right" id="RestServices" order="4" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="BPMNPalette" order="7" weight="0.13236481" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/工器具领用.bpmn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/crazyit/activiti/ActMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/crazyit/activiti/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="method#startAll#0;class#MyController#0" expanded="true" />
+            <element signature="method#ins#0;class#MyController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
